@@ -1,0 +1,344 @@
+employee_id,cluster_label,anomaly_flag,trend_flag
+5603,High Deviation,Normal,High Absence Trend
+5604,High Deviation,Normal,High Absence Trend
+5605,High Deviation,Normal,High Absence Trend
+5984,Irregular,Normal,Increasing Lateness
+6012,Stable,Normal,High Absence Trend
+6017,Irregular,Normal,Increasing Lateness
+6018,High Deviation,Normal,High Absence Trend
+6030,Irregular,Normal,Increasing Lateness
+6031,Irregular,Normal,Increasing Lateness
+6032,High Deviation,Normal,High Absence Trend
+6033,Stable,Normal,High Absence Trend
+6040,Irregular,Anomaly,Increasing Lateness
+6075,Stable,Normal,High Absence Trend
+6076,High Deviation,Normal,High Absence Trend
+6078,Irregular,Normal,Increasing Lateness
+6081,High Deviation,Normal,High Absence Trend
+6082,Stable,Normal,High Absence Trend
+6083,High Deviation,Normal,High Absence Trend
+6084,High Deviation,Normal,High Absence Trend
+6085,Irregular,Anomaly,Increasing Lateness
+6099,Stable,Normal,High Absence Trend
+6101,High Deviation,Normal,High Absence Trend
+6102,Stable,Normal,High Absence Trend
+6106,Irregular,Normal,Increasing Lateness
+6107,Stable,Normal,High Absence Trend
+6118,Stable,Normal,High Absence Trend
+6138,High Deviation,Normal,High Absence Trend
+6139,Stable,Normal,High Absence Trend
+6172,High Deviation,Normal,High Absence Trend
+6173,Irregular,Normal,Increasing Lateness
+6174,Stable,Normal,High Absence Trend
+6175,High Deviation,Normal,High Absence Trend
+6176,High Deviation,Normal,High Absence Trend
+6177,Irregular,Normal,Increasing Lateness
+6179,Stable,Normal,High Absence Trend
+6180,Stable,Normal,High Absence Trend
+6182,Stable,Normal,High Absence Trend
+6205,High Deviation,Normal,High Absence Trend
+6208,High Deviation,Normal,High Absence Trend
+6209,Stable,Normal,High Absence Trend
+6211,Stable,Normal,High Absence Trend
+6231,Irregular,Normal,Increasing Lateness
+6239,Stable,Normal,High Absence Trend
+6240,Stable,Normal,High Absence Trend
+6241,High Deviation,Normal,High Absence Trend
+6243,Irregular,Normal,Increasing Lateness
+6246,Irregular,Anomaly,Increasing Lateness
+6249,Stable,Normal,High Absence Trend
+6271,High Deviation,Normal,High Absence Trend
+6276,High Deviation,Normal,High Absence Trend
+6282,Stable,Normal,High Absence Trend
+6284,Stable,Normal,High Absence Trend
+6286,Irregular,Normal,Increasing Lateness
+6287,Stable,Normal,High Absence Trend
+6290,Irregular,Anomaly,Increasing Lateness
+6291,Stable,Normal,High Absence Trend
+6337,High Deviation,Normal,High Absence Trend
+6359,High Deviation,Normal,High Absence Trend
+6401,Stable,Normal,High Absence Trend
+6402,Irregular,Normal,Increasing Lateness
+6404,Stable,Normal,High Absence Trend
+6405,Irregular,Normal,Increasing Lateness
+6406,Stable,Normal,High Absence Trend
+6407,Stable,Normal,High Absence Trend
+6409,Stable,Anomaly,High Absence Trend
+6410,Stable,Normal,High Absence Trend
+6420,Irregular,Normal,Increasing Lateness
+6421,Irregular,Normal,Increasing Lateness
+6422,High Deviation,Anomaly,Increasing Lateness
+6423,Stable,Normal,High Absence Trend
+6424,High Deviation,Normal,High Absence Trend
+6425,Irregular,Normal,Increasing Lateness
+6427,Irregular,Normal,Increasing Lateness
+6428,Irregular,Normal,Increasing Lateness
+6429,Irregular,Normal,Increasing Lateness
+6430,Irregular,Normal,Increasing Lateness
+6448,Stable,Normal,High Absence Trend
+6457,Stable,Normal,High Absence Trend
+6459,Irregular,Normal,Increasing Lateness
+6460,Irregular,Normal,Increasing Lateness
+6461,High Deviation,Normal,High Absence Trend
+6481,Stable,Normal,High Absence Trend
+6506,High Deviation,Normal,High Absence Trend
+6535,High Deviation,Normal,High Absence Trend
+6538,Irregular,Normal,Increasing Lateness
+6591,Stable,Normal,High Absence Trend
+6592,Irregular,Normal,Increasing Lateness
+6593,Stable,Anomaly,High Absence Trend
+6594,High Deviation,Normal,High Absence Trend
+6595,High Deviation,Normal,High Absence Trend
+6596,Irregular,Normal,Increasing Lateness
+6598,Stable,Normal,High Absence Trend
+6599,High Deviation,Normal,High Absence Trend
+6601,Irregular,Normal,Increasing Lateness
+6602,Irregular,Normal,Increasing Lateness
+6603,Irregular,Normal,Increasing Lateness
+6604,Irregular,Normal,Increasing Lateness
+6607,Stable,Normal,High Absence Trend
+6608,High Deviation,Normal,Increasing Lateness
+6609,Irregular,Normal,Increasing Lateness
+6612,Irregular,Normal,Increasing Lateness
+6613,Stable,Anomaly,High Absence Trend
+6614,Stable,Normal,High Absence Trend
+6615,Stable,Normal,High Absence Trend
+6617,Irregular,Anomaly,Increasing Lateness
+6618,Irregular,Normal,Increasing Lateness
+6620,High Deviation,Normal,High Absence Trend
+6628,Irregular,Normal,Increasing Lateness
+6656,Stable,Normal,High Absence Trend
+6657,Irregular,Normal,Increasing Lateness
+6661,Irregular,Normal,Increasing Lateness
+6671,High Deviation,Normal,High Absence Trend
+6672,High Deviation,Normal,High Absence Trend
+6695,High Deviation,Normal,High Absence Trend
+7010,Irregular,Normal,Increasing Lateness
+7011,Irregular,Anomaly,Increasing Lateness
+7025,Stable,Normal,High Absence Trend
+7028,Stable,Normal,High Absence Trend
+7044,High Deviation,Normal,High Absence Trend
+7048,High Deviation,Normal,High Absence Trend
+7049,Irregular,Normal,Increasing Lateness
+7050,Irregular,Normal,Increasing Lateness
+7051,Irregular,Normal,Increasing Lateness
+7054,Stable,Normal,High Absence Trend
+7062,Stable,Normal,High Absence Trend
+7078,Irregular,Normal,Increasing Lateness
+7086,Irregular,Normal,Increasing Lateness
+7092,High Deviation,Normal,High Absence Trend
+7114,Stable,Normal,High Absence Trend
+7132,Irregular,Normal,Increasing Lateness
+7142,High Deviation,Anomaly,Increasing Lateness
+7151,High Deviation,Normal,High Absence Trend
+7153,Stable,Normal,High Absence Trend
+7156,Stable,Normal,High Absence Trend
+7158,Irregular,Normal,Increasing Lateness
+7199,Stable,Normal,High Absence Trend
+7227,Irregular,Anomaly,Increasing Lateness
+7247,Irregular,Normal,Increasing Lateness
+7262,Irregular,Normal,Increasing Lateness
+7322,Irregular,Normal,Increasing Lateness
+7323,High Deviation,Normal,High Absence Trend
+7340,Irregular,Normal,Increasing Lateness
+7344,High Deviation,Normal,High Absence Trend
+7356,High Deviation,Normal,High Absence Trend
+7365,High Deviation,Normal,High Absence Trend
+7371,High Deviation,Normal,High Absence Trend
+7390,High Deviation,Normal,Increasing Lateness
+7395,High Deviation,Normal,High Absence Trend
+7398,Irregular,Normal,Increasing Lateness
+7402,Stable,Normal,High Absence Trend
+7407,Stable,Normal,High Absence Trend
+7411,Stable,Normal,High Absence Trend
+7419,Irregular,Normal,Increasing Lateness
+7420,Irregular,Normal,Increasing Lateness
+7422,Stable,Normal,High Absence Trend
+7428,High Deviation,Normal,High Absence Trend
+7432,High Deviation,Normal,High Absence Trend
+7443,Stable,Normal,High Absence Trend
+7450,Irregular,Normal,Increasing Lateness
+7460,Stable,Normal,High Absence Trend
+7462,High Deviation,Normal,High Absence Trend
+7469,High Deviation,Normal,High Absence Trend
+7476,High Deviation,Normal,High Absence Trend
+7480,Irregular,Normal,Increasing Lateness
+7483,Stable,Normal,High Absence Trend
+7485,Irregular,Normal,Increasing Lateness
+7490,High Deviation,Normal,High Absence Trend
+7491,High Deviation,Normal,High Absence Trend
+7494,Irregular,Normal,Increasing Lateness
+7495,Irregular,Normal,Increasing Lateness
+7497,Stable,Normal,High Absence Trend
+7505,Irregular,Normal,Increasing Lateness
+7506,High Deviation,Normal,High Absence Trend
+7508,High Deviation,Normal,High Absence Trend
+7516,Irregular,Normal,Increasing Lateness
+7521,Stable,Normal,High Absence Trend
+7527,High Deviation,Normal,High Absence Trend
+7532,Irregular,Normal,Increasing Lateness
+7534,Irregular,Normal,Increasing Lateness
+7535,Irregular,Normal,Increasing Lateness
+7539,Stable,Normal,High Absence Trend
+7547,Stable,Normal,High Absence Trend
+7550,Irregular,Normal,Increasing Lateness
+7552,Stable,Normal,High Absence Trend
+7554,Irregular,Normal,Increasing Lateness
+7555,High Deviation,Normal,High Absence Trend
+7559,Stable,Normal,High Absence Trend
+7565,Irregular,Normal,Increasing Lateness
+7567,Irregular,Normal,Increasing Lateness
+7577,Stable,Normal,High Absence Trend
+7578,Irregular,Normal,Increasing Lateness
+7604,High Deviation,Normal,High Absence Trend
+7609,High Deviation,Normal,High Absence Trend
+7617,Stable,Normal,High Absence Trend
+7632,Irregular,Normal,Increasing Lateness
+7633,Stable,Normal,High Absence Trend
+7640,High Deviation,Normal,High Absence Trend
+7644,High Deviation,Normal,High Absence Trend
+7653,Stable,Normal,High Absence Trend
+7655,Stable,Normal,High Absence Trend
+7669,High Deviation,Normal,High Absence Trend
+7680,Irregular,Normal,Increasing Lateness
+7683,High Deviation,Normal,High Absence Trend
+7688,Irregular,Normal,Increasing Lateness
+7689,High Deviation,Normal,High Absence Trend
+7691,Stable,Normal,High Absence Trend
+7692,Irregular,Normal,Increasing Lateness
+7693,Irregular,Normal,Increasing Lateness
+7699,Irregular,Normal,Increasing Lateness
+7701,Irregular,Normal,Increasing Lateness
+7707,High Deviation,Normal,Increasing Lateness
+7711,Stable,Normal,High Absence Trend
+7712,Irregular,Normal,Increasing Lateness
+7713,Stable,Normal,High Absence Trend
+7717,Stable,Normal,High Absence Trend
+7719,Stable,Normal,High Absence Trend
+7722,Irregular,Normal,Increasing Lateness
+7724,Irregular,Normal,Increasing Lateness
+7726,Irregular,Normal,Increasing Lateness
+7727,High Deviation,Normal,High Absence Trend
+7730,Stable,Normal,High Absence Trend
+7733,Stable,Normal,High Absence Trend
+7734,Irregular,Normal,Increasing Lateness
+7762,High Deviation,Normal,High Absence Trend
+7766,High Deviation,Normal,High Absence Trend
+7769,Irregular,Normal,Increasing Lateness
+7771,Irregular,Normal,Increasing Lateness
+7773,Irregular,Normal,Increasing Lateness
+7774,Irregular,Normal,Increasing Lateness
+7785,Irregular,Normal,Increasing Lateness
+7786,Irregular,Normal,Increasing Lateness
+7790,High Deviation,Normal,Increasing Lateness
+7795,Irregular,Normal,Increasing Lateness
+7796,Stable,Normal,High Absence Trend
+7806,Irregular,Normal,Increasing Lateness
+7807,Irregular,Normal,Increasing Lateness
+7809,Irregular,Normal,Increasing Lateness
+7813,Irregular,Normal,Increasing Lateness
+7815,Stable,Normal,High Absence Trend
+7816,Stable,Normal,High Absence Trend
+7824,High Deviation,Normal,High Absence Trend
+7825,Irregular,Normal,Increasing Lateness
+7826,Stable,Normal,High Absence Trend
+7832,High Deviation,Normal,High Absence Trend
+7834,Stable,Normal,High Absence Trend
+7837,High Deviation,Normal,High Absence Trend
+7839,High Deviation,Normal,High Absence Trend
+7840,High Deviation,Normal,High Absence Trend
+7841,Irregular,Normal,Increasing Lateness
+7844,Irregular,Normal,Increasing Lateness
+7846,Stable,Normal,High Absence Trend
+7847,High Deviation,Normal,High Absence Trend
+7848,Stable,Normal,High Absence Trend
+7858,Stable,Normal,High Absence Trend
+7874,Stable,Normal,High Absence Trend
+7875,High Deviation,Normal,High Absence Trend
+7879,Irregular,Normal,Increasing Lateness
+7881,Irregular,Normal,Increasing Lateness
+7883,High Deviation,Normal,High Absence Trend
+7885,Irregular,Normal,Increasing Lateness
+7886,Irregular,Normal,Increasing Lateness
+7887,Irregular,Normal,Increasing Lateness
+7890,High Deviation,Anomaly,Increasing Lateness
+7899,Irregular,Normal,Increasing Lateness
+7903,Irregular,Normal,Increasing Lateness
+7904,Stable,Normal,High Absence Trend
+7909,High Deviation,Anomaly,Increasing Lateness
+7911,Stable,Normal,High Absence Trend
+7914,Irregular,Normal,Increasing Lateness
+7915,Stable,Normal,High Absence Trend
+7918,Irregular,Normal,Increasing Lateness
+7919,High Deviation,Normal,High Absence Trend
+7920,High Deviation,Normal,High Absence Trend
+7923,High Deviation,Normal,High Absence Trend
+8023,Irregular,Normal,Increasing Lateness
+8193,Irregular,Normal,Increasing Lateness
+8256,High Deviation,Normal,High Absence Trend
+8268,Irregular,Normal,Increasing Lateness
+8293,Stable,Normal,High Absence Trend
+8495,Irregular,Normal,Increasing Lateness
+8537,High Deviation,Normal,High Absence Trend
+8538,Stable,Normal,High Absence Trend
+8539,Stable,Normal,High Absence Trend
+8611,Stable,Normal,High Absence Trend
+8642,Irregular,Anomaly,Increasing Lateness
+8645,Stable,Normal,High Absence Trend
+8655,High Deviation,Normal,High Absence Trend
+8665,Irregular,Normal,Increasing Lateness
+8689,Stable,Normal,High Absence Trend
+8702,Irregular,Normal,Increasing Lateness
+8760,High Deviation,Normal,High Absence Trend
+8762,Irregular,Normal,Increasing Lateness
+8805,Irregular,Normal,Increasing Lateness
+8817,Irregular,Normal,Increasing Lateness
+8821,Irregular,Anomaly,Increasing Lateness
+8833,Stable,Normal,High Absence Trend
+8873,Irregular,Normal,Increasing Lateness
+8912,Stable,Normal,High Absence Trend
+8963,Irregular,Normal,Increasing Lateness
+8978,High Deviation,Normal,High Absence Trend
+9926,Stable,Normal,High Absence Trend
+9939,Irregular,Normal,Increasing Lateness
+9955,Stable,Normal,High Absence Trend
+9996,Irregular,Normal,Increasing Lateness
+9997,High Deviation,Normal,High Absence Trend
+19002,Irregular,Normal,Increasing Lateness
+19003,Irregular,Normal,Increasing Lateness
+19008,High Deviation,Normal,High Absence Trend
+19020,Irregular,Anomaly,Increasing Lateness
+19023,Irregular,Normal,Increasing Lateness
+19028,High Deviation,Normal,Increasing Lateness
+19031,Irregular,Normal,Increasing Lateness
+19032,High Deviation,Normal,Increasing Lateness
+19034,Irregular,Normal,Increasing Lateness
+19040,Irregular,Normal,Increasing Lateness
+19041,High Deviation,Normal,High Absence Trend
+19044,Irregular,Normal,Increasing Lateness
+19045,High Deviation,Anomaly,Increasing Lateness
+19047,Irregular,Normal,Increasing Lateness
+19063,Stable,Normal,High Absence Trend
+19068,Stable,Normal,High Absence Trend
+19069,Irregular,Normal,Increasing Lateness
+19070,Stable,Normal,High Absence Trend
+19082,Stable,Normal,High Absence Trend
+19083,Stable,Normal,High Absence Trend
+19084,Stable,Normal,High Absence Trend
+19085,High Deviation,Normal,High Absence Trend
+19086,Stable,Normal,High Absence Trend
+19090,Stable,Normal,High Absence Trend
+19097,High Deviation,Normal,High Absence Trend
+19101,Irregular,Normal,Increasing Lateness
+19105,High Deviation,Normal,High Absence Trend
+19108,Stable,Normal,High Absence Trend
+19111,High Deviation,Normal,High Absence Trend
+19112,High Deviation,Normal,High Absence Trend
+19116,High Deviation,Normal,Increasing Lateness
+19124,High Deviation,Normal,High Absence Trend
+19125,High Deviation,Normal,High Absence Trend
+19130,Stable,Normal,High Absence Trend
+19132,Stable,Normal,High Absence Trend
+19134,Stable,Normal,High Absence Trend
+19146,High Deviation,Normal,High Absence Trend
+19147,High Deviation,Normal,High Absence Trend

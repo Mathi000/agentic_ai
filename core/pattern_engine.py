@@ -87,12 +87,19 @@ print("\nTrend Detection Results:")
 print(df["trend_flag"].value_counts())
 print("\nGenerating pattern_output.csv...")
 
-output = df[[
+output_cols = [
     "employee_id",
+    "Emp Name",
+    "department",
+    "date",
     "cluster_label",
     "anomaly_flag",
-    "trend_flag"
-]]
+    "trend_flag",
+]
+
+# Keep only columns that actually exist
+output_cols = [c for c in output_cols if c in df.columns]
+output = df[output_cols]
 
 output.to_csv("data/pattern_output.csv", index=False)
 

@@ -59,12 +59,22 @@ def predict_risk(feature_df: pd.DataFrame) -> pd.DataFrame:
 
     risk_categories = [risk_map.get(p, "Unknown") for p in predictions]
 
-    # Output
+    # Base output
     output = pd.DataFrame({
         "employee_id": employee_ids,
         "risk_score": risk_scores,
         "risk_category": risk_categories
     })
+
+    # Attach latest meta info for better analysis (department, name, date)
+    meta_cols = [c for c in ["employee_id", "Emp Name", "department", "date"] if c in feature_df.columns]
+    if meta_cols:
+        meta = feature_df[meta_cols].copy()
+        if "date" in meta.columns:
+            meta["date"] = pd.to_datetime(meta["date"], errors="coerce")
+            meta = meta.sort_values("date")
+        meta = meta.drop_duplicates(subset=["employee_id"], keep="last")
+        output = output.merge(meta, on="employee_id", how="left")
 
     output.to_csv("data/risk_output.csv", index=False)
 

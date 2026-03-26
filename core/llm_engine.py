@@ -5,6 +5,10 @@ from functools import lru_cache
 from typing import Dict, Any, List
 
 import pandas as pd
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 
 # =========================================================
@@ -131,15 +135,14 @@ def _hash_payload(query: str, filtered_context: Dict[str, Any]) -> str:
 
 @lru_cache(maxsize=256)
 def _cached_llm_response(payload_hash: str, query: str, filtered_context_json: str) -> str:
-    # Import inside to keep startup fast and avoid hard dependency if unused.
     try:
         from groq import Groq
     except Exception:
-        return "Unable to process request right now."
+        return "⚠️ The `groq` package is missing. Run `pip install groq`."
 
     api_key = os.getenv("GROQ_API_KEY")
     if not api_key:
-        return "Unable to process request right now."
+        return "⚠️ GROQ_API_KEY is missing! Please create a `.env` file in your `agentic_ai` folder and add your API key like: `GROQ_API_KEY=your-api-key-here`"
 
     client = Groq(api_key=api_key)
 
@@ -161,9 +164,7 @@ def _cached_llm_response(payload_hash: str, query: str, filtered_context_json: s
         )
         return completion.choices[0].message.content.strip()
     except Exception as exc:
-        if debug:
-            return f"Unable to process request right now. Error: {exc}"
-        return "Unable to process request right now."
+        return f"⚠️ Groq API Error: {exc} — Please check your API key and network connection."
 
 
 def generate_response(query: str, filtered_context: Dict[str, Any]) -> str:

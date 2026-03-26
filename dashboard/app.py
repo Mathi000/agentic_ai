@@ -350,7 +350,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
     )
 
     # ---- Agent Insights ----
-    st.markdown('<div class="header-style">⚡ Autonomous Copilot Action Plan</div>', unsafe_allow_html=True)
+    st.markdown('<div class="header-style">⚡ Autonomous Action Plan</div>', unsafe_allow_html=True)
 
     i1, i2 = st.columns(2)
     with i1:

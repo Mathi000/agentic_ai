@@ -717,7 +717,9 @@ def render_hr_leave_management():
         for idx, row in pending_leaves.iterrows():
             with st.container():
                 st.markdown(f"**{row['Emp Name']} ({row['Employee ID']})**")
-                days = (row['End Date'] - row['Start Date']).days + 1
+                start_dt = pd.to_datetime(row['Start Date'])
+                end_dt = pd.to_datetime(row['End Date'])
+                days = (end_dt - start_dt).days + 1
                 st.markdown(f"**Dates:** {row['Start Date']} to {row['End Date']} ({days} days)")
                 st.markdown(f"**Reason:** {row['Reason']}")
                 

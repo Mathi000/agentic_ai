@@ -132,6 +132,35 @@ def _coerce_input_schema(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def _apply_approved_leaves(df: pd.DataFrame, leave_file: str) -> pd.DataFrame:
+    try:
+        leaves = pd.read_csv(leave_file)
+        leaves = leaves[leaves["Status"].str.strip().str.lower() == "approved"]
+        leaves["Start Date"] = pd.to_datetime(leaves["Start Date"], errors="coerce")
+        leaves["End Date"] = pd.to_datetime(leaves["End Date"], errors="coerce")
+        
+        df["employee_id_str"] = df["employee_id"].astype(str).str.strip()
+        leaves["Employee ID"] = leaves["Employee ID"].astype(str).str.strip()
+        
+        for _, row in leaves.iterrows():
+            emp_id = row["Employee ID"]
+            start = row["Start Date"]
+            end = row["End Date"]
+            if pd.isna(start) or pd.isna(end):
+                continue
+            
+            mask = (
+                (df["employee_id_str"] == emp_id) &
+                (df["date"] >= start) &
+                (df["date"] <= end) &
+                (df["status"] == "absent")
+            )
+            df.loc[mask, "status"] = "leave"
+            
+        df.drop(columns=["employee_id_str"], inplace=True)
+    except Exception as e:
+        print(f"Error applying leaves: {e}")
+    return df
 
 def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours: int) -> pd.DataFrame:
     # Build a daily summary table for all dates so we can compute cumulative mandays.
@@ -206,11 +235,31 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
         rolling_weekoff = day_df[day_df["status"] == "weekoff"]["employee_id"].nunique()
         informed_leave = day_df[day_df["status"] == "leave"]["employee_id"].nunique()
 
+        # Sunday NA formatting
+        if day_name == "Sunday":
+            str_approved_strength = "NA"
+            str_required_strength = "NA"
+            str_gap = "NA"
+            str_shortage_approved = "NA"
+            str_shortage_required = "NA"
+            str_abs_onroll = "NA"
+            str_abs_contractor = "NA"
+            str_abs_app = "NA"
+        else:
+            str_approved_strength = approved_strength
+            str_required_strength = required_strength
+            str_gap = _safe_round(gap, 2)
+            str_shortage_approved = _safe_round(shortage_approved, 2)
+            str_shortage_required = _safe_round(shortage_required, 2)
+            str_abs_onroll = abs_onroll
+            str_abs_contractor = abs_contractor
+            str_abs_app = abs_app
+
         row = {
             "Date": day_str,
             "Day": day_name,
-            "Approved Strength": approved_strength,
-            "Required Strength": required_strength,
+            "Approved Strength": str_approved_strength,
+            "Required Strength": str_required_strength,
             "Onroll": onroll_strength,
             "Contractor": contractor_strength,
             "App": app_strength,
@@ -225,13 +274,13 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
             "Extra Hours": _safe_round(extra_hours, 2),
             "Extra Hours Mandays": _safe_round(extra_mandays, 2),
             "Total Manpower Utilized": _safe_round(utilized, 2),
-            "Gap": _safe_round(gap, 2),
+            "Gap": str_gap,
             "Cumulative Mandays": None,  # set after we build dataframe
-            "Manpower Shortage % (Approved)": _safe_round(shortage_approved, 2),
-            "Manpower Shortage % (Required)": _safe_round(shortage_required, 2),
-            "Absenteeism Onroll": abs_onroll,
-            "Absenteeism Contractor": abs_contractor,
-            "Absenteeism App": abs_app,
+            "Manpower Shortage % (Approved)": str_shortage_approved,
+            "Manpower Shortage % (Required)": str_shortage_required,
+            "Absenteeism Onroll": str_abs_onroll,
+            "Absenteeism Contractor": str_abs_contractor,
+            "Absenteeism App": str_abs_app,
             "Rolling Shift Week Off": rolling_weekoff,
             "Informed Leave": informed_leave,
         }
@@ -245,6 +294,9 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
         .cumsum()
         .round(2)
     )
+    # Apply Sunday NA formatting
+    if "Day" in daily_df.columns:
+        daily_df.loc[daily_df["Day"] == "Sunday", "Cumulative Mandays"] = "NA"
     return daily_df
 
 
@@ -257,12 +309,20 @@ def generate_daily_summary(attendance_file: str, risk_file: Optional[str], date_
         print("No attendance data for today")
         return None
 
-    df = pd.read_csv(attendance_file)
+    try:
+        df = pd.read_csv(attendance_file)
+    except UnicodeDecodeError:
+        df = pd.read_csv(attendance_file, encoding="latin1")
+    
     if df.empty:
         print("No attendance data for today")
         return None
 
     df = _coerce_input_schema(df)
+    
+    leave_file = os.getenv("LEAVE_APPLICATIONS_FILE", "data/leave_applications.csv")
+    if os.path.exists(leave_file):
+        df = _apply_approved_leaves(df, leave_file)
 
     approved_strength = int(os.getenv("APPROVED_STRENGTH", "300"))
     standard_hours = int(os.getenv("STANDARD_HOURS", "8"))
@@ -275,7 +335,7 @@ def generate_daily_summary(attendance_file: str, risk_file: Optional[str], date_
     target_date = date_override or date.today().strftime("%Y-%m-%d")
     today_row = daily_df[daily_df["Date"] == target_date]
     if today_row.empty:
-        print("No attendance data for today")
+        print(f"No attendance data for today ({target_date})")
         return None
 
     # Optional: read risk file to count high risk (not included in CSV columns)
@@ -289,11 +349,17 @@ def generate_daily_summary(attendance_file: str, risk_file: Optional[str], date_
     os.makedirs(output_dir, exist_ok=True)
     output_path = os.path.join(output_dir, f"daily_summary_{target_date}.csv")
 
-    # Ensure column order
-    today_row = today_row.reindex(columns=SUMMARY_COLUMNS)
-    today_row.to_csv(output_path, index=False)
+    # Ensure column order for the ENTIRE dataframe to include all historical dates
+    daily_df = daily_df.reindex(columns=SUMMARY_COLUMNS)
+    daily_df.to_csv(output_path, index=False)
     return output_path
 
 
 if __name__ == "__main__":
-    generate_daily_summary("data/attendance.csv", "data/risk_output.csv")
+    import os
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    attendance_file = os.getenv("ATTENDANCE_FILE", "data/attendance.csv")
+    risk_file = os.getenv("RISK_FILE", "data/risk_output.csv")
+    generate_daily_summary(attendance_file, risk_file)

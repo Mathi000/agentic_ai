@@ -458,7 +458,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
         )
         fig.update_layout(**get_base_layout())
         fig.update_traces(textposition='inside', textinfo='percent+label', marker=dict(line=dict(color='#0f172a', width=2)))
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
 
     with c2:
         if "department" in risk_df.columns:
@@ -468,7 +468,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_map=color_map, barmode="stack", text_auto=True
             )
             fig2.update_layout(**get_base_layout(), xaxis_title="", yaxis_title="Employees", legend_title="")
-            st.plotly_chart(fig2, use_container_width=True)
+            st.plotly_chart(fig2, width="stretch")
 
     # ---- Charts Row 2 ----
     st.markdown('<div class="header-style">🧠 Behavioral & Trend Intelligence</div>', unsafe_allow_html=True)
@@ -483,7 +483,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_sequence=["#8b5cf6", "#ec4899", "#3b82f6"]
             )
             fig3.update_layout(**get_base_layout(), showlegend=False, xaxis_title="", yaxis_title="")
-            st.plotly_chart(fig3, use_container_width=True)
+            st.plotly_chart(fig3, width="stretch")
 
     with c4:
         if "anomaly_flag" in pattern_df.columns:
@@ -495,7 +495,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
             )
             fig4.update_layout(**get_base_layout())
             fig4.update_traces(marker=dict(line=dict(color='#0f172a', width=2)))
-            st.plotly_chart(fig4, use_container_width=True)
+            st.plotly_chart(fig4, width="stretch")
 
     with c5:
         if "trend_flag" in pattern_df.columns:
@@ -506,7 +506,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_sequence=["#f97316", "#ef4444", "#06b6d4", "#14b8a6"]
             )
             fig5.update_layout(**get_base_layout(), showlegend=False, xaxis_title="", yaxis_title="")
-            st.plotly_chart(fig5, use_container_width=True)
+            st.plotly_chart(fig5, width="stretch")
 
     # ---- Employee Risk Table ----
     st.markdown('<div class="header-style">📋 Deep Data Inspector</div>', unsafe_allow_html=True)
@@ -525,9 +525,13 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
     if "risk_score" in filtered.columns:
         filtered = filtered.sort_values("risk_score", ascending=False)
 
+    # Cast object columns to strings to prevent pyarrow serialization crashes
+    for col in filtered.select_dtypes(include=['object', 'category']):
+        filtered[col] = filtered[col].astype(str)
+
     st.dataframe(
         filtered,
-        use_container_width=True,
+        width="stretch",
         height=400,
         column_config={
             "risk_score": st.column_config.ProgressColumn("Risk Score", format="%.3f", min_value=0, max_value=1),
@@ -703,7 +707,7 @@ def render_employee_portal():
     if my_leaves.empty:
         st.info("No leave applications found.")
     else:
-        st.dataframe(my_leaves, use_container_width=True)
+        st.dataframe(my_leaves.astype(str), width="stretch")
 
 def render_hr_leave_management():
     st.markdown('<div class="header-style">👥 HR Leave Management</div>', unsafe_allow_html=True)
@@ -743,7 +747,7 @@ def render_hr_leave_management():
     if processed_leaves.empty:
         st.info("No processed applications.")
     else:
-        st.dataframe(processed_leaves, use_container_width=True)
+        st.dataframe(processed_leaves.astype(str), width="stretch")
 
 def main():
     # ---- Custom Sidebar ----
@@ -759,7 +763,7 @@ def main():
             df = pd.read_csv(uploaded_file)
             df.to_csv(temp_path, index=False)
 
-            if st.button("Initialize Deep Analysis", use_container_width=True, type="primary"):
+            if st.button("Initialize Deep Analysis", width="stretch", type="primary"):
                 f_df, p_df, r_df, ao = load_and_run_pipeline(temp_path)
                 st.session_state.feature_df = f_df
                 st.session_state.pattern_df = p_df
@@ -781,7 +785,7 @@ def main():
             
         if st.session_state.pipeline_done:
             st.markdown("---")
-            if st.button("Reset Session", use_container_width=True):
+            if st.button("Reset Session", width="stretch"):
                 for k in ["pipeline_done", "risk_df", "pattern_df", "feature_df", "agent_output"]:
                     st.session_state[k] = False if k == "pipeline_done" else None
                 st.session_state.chat_history = [st.session_state.chat_history[0]]

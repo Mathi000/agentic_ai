@@ -28,10 +28,6 @@ SUMMARY_COLUMNS = [
     "Cumulative Mandays",
     "Manpower Shortage % (Approved)",
     "Manpower Shortage % (Required)",
-    "Absenteeism Onroll",
-    "Absenteeism Contractor",
-    "Absenteeism App",
-    "Rolling Shift Week Off",
     "Informed Leave",
 ]
 
@@ -142,20 +138,30 @@ def _apply_approved_leaves(df: pd.DataFrame, leave_file: str) -> pd.DataFrame:
         df["employee_id_str"] = df["employee_id"].astype(str).str.strip()
         leaves["Employee ID"] = leaves["Employee ID"].astype(str).str.strip()
         
+        new_rows = []
         for _, row in leaves.iterrows():
-            emp_id = row["Employee ID"]
+            emp_id = str(row["Employee ID"]).strip()
             start = row["Start Date"]
             end = row["End Date"]
             if pd.isna(start) or pd.isna(end):
                 continue
             
-            mask = (
-                (df["employee_id_str"] == emp_id) &
-                (df["date"] >= start) &
-                (df["date"] <= end) &
-                (df["status"] == "absent")
-            )
-            df.loc[mask, "status"] = "leave"
+            for single_date in pd.date_range(start, end):
+                mask_date_emp = (df["employee_id_str"] == emp_id) & (df["date"] == single_date)
+                if not mask_date_emp.any():
+                    new_rows.append({
+                        "employee_id": emp_id,
+                        "employee_id_str": emp_id,
+                        "date": single_date,
+                        "status": "leave",
+                        "category": "unknown",
+                        "hours_worked": 0
+                    })
+                else:
+                    df.loc[mask_date_emp & (df["status"] == "absent"), "status"] = "leave"
+        
+        if new_rows:
+            df = pd.concat([df, pd.DataFrame(new_rows)], ignore_index=True)
             
         df.drop(columns=["employee_id_str"], inplace=True)
     except Exception as e:
@@ -222,17 +228,6 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
             if required_strength else None
         )
 
-        # Absenteeism counts
-        absent_df = day_df[day_df["status"] == "absent"]
-
-        def _absent(cat: str) -> int:
-            return absent_df[absent_df["category"] == cat]["employee_id"].nunique()
-
-        abs_onroll = _absent("onroll")
-        abs_contractor = _absent("contractor")
-        abs_app = _absent("app")
-
-        rolling_weekoff = day_df[day_df["status"] == "weekoff"]["employee_id"].nunique()
         informed_leave = day_df[day_df["status"] == "leave"]["employee_id"].nunique()
 
         # Sunday NA formatting
@@ -242,18 +237,12 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
             str_gap = "NA"
             str_shortage_approved = "NA"
             str_shortage_required = "NA"
-            str_abs_onroll = "NA"
-            str_abs_contractor = "NA"
-            str_abs_app = "NA"
         else:
             str_approved_strength = approved_strength
             str_required_strength = required_strength
             str_gap = _safe_round(gap, 2)
             str_shortage_approved = _safe_round(shortage_approved, 2)
             str_shortage_required = _safe_round(shortage_required, 2)
-            str_abs_onroll = abs_onroll
-            str_abs_contractor = abs_contractor
-            str_abs_app = abs_app
 
         row = {
             "Date": day_str,
@@ -278,10 +267,6 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
             "Cumulative Mandays": None,  # set after we build dataframe
             "Manpower Shortage % (Approved)": str_shortage_approved,
             "Manpower Shortage % (Required)": str_shortage_required,
-            "Absenteeism Onroll": str_abs_onroll,
-            "Absenteeism Contractor": str_abs_contractor,
-            "Absenteeism App": str_abs_app,
-            "Rolling Shift Week Off": rolling_weekoff,
             "Informed Leave": informed_leave,
         }
         daily_rows.append(row)
@@ -296,6 +281,7 @@ def _compute_daily_rows(df: pd.DataFrame, approved_strength: int, standard_hours
     )
     # Apply Sunday NA formatting
     if "Day" in daily_df.columns:
+        daily_df["Cumulative Mandays"] = daily_df["Cumulative Mandays"].astype(object)
         daily_df.loc[daily_df["Day"] == "Sunday", "Cumulative Mandays"] = "NA"
     return daily_df
 

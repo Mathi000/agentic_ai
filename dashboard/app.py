@@ -469,7 +469,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
         )
         fig.update_layout(**get_base_layout())
         fig.update_traces(textposition='inside', textinfo='percent+label', marker=dict(line=dict(color='#0f172a', width=2)))
-        st.plotly_chart(fig, width="stretch")
+        st.plotly_chart(fig, use_container_width=True)
 
     with c2:
         if "department" in risk_df.columns:
@@ -479,7 +479,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_map=color_map, barmode="stack", text_auto=True
             )
             fig2.update_layout(**get_base_layout(), xaxis_title="", yaxis_title="Employees", legend_title="")
-            st.plotly_chart(fig2, width="stretch")
+            st.plotly_chart(fig2, use_container_width=True)
 
     # ---- Charts Row 2 ----
     st.markdown('<div class="header-style">🧠 Behavioral & Trend Intelligence</div>', unsafe_allow_html=True)
@@ -494,7 +494,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_sequence=["#8b5cf6", "#ec4899", "#3b82f6"]
             )
             fig3.update_layout(**get_base_layout(), showlegend=False, xaxis_title="", yaxis_title="")
-            st.plotly_chart(fig3, width="stretch")
+            st.plotly_chart(fig3, use_container_width=True)
 
     with c4:
         if "anomaly_flag" in pattern_df.columns:
@@ -506,7 +506,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
             )
             fig4.update_layout(**get_base_layout())
             fig4.update_traces(marker=dict(line=dict(color='#0f172a', width=2)))
-            st.plotly_chart(fig4, width="stretch")
+            st.plotly_chart(fig4, use_container_width=True)
 
     with c5:
         if "trend_flag" in pattern_df.columns:
@@ -517,7 +517,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
                 color_discrete_sequence=["#f97316", "#ef4444", "#06b6d4", "#14b8a6"]
             )
             fig5.update_layout(**get_base_layout(), showlegend=False, xaxis_title="", yaxis_title="")
-            st.plotly_chart(fig5, width="stretch")
+            st.plotly_chart(fig5, use_container_width=True)
 
     # ---- Employee Risk Table ----
     st.markdown('<div class="header-style">📋 Deep Data Inspector</div>', unsafe_allow_html=True)
@@ -542,7 +542,7 @@ def render_dashboard(risk_df: pd.DataFrame, pattern_df: pd.DataFrame, agent_outp
 
     st.dataframe(
         filtered,
-        width="stretch",
+        use_container_width=True,
         height=400,
         column_config={
             "risk_score": st.column_config.ProgressColumn("Risk Score", format="%.3f", min_value=0, max_value=1),
@@ -718,7 +718,7 @@ def render_employee_portal():
     if my_leaves.empty:
         st.info("No leave applications found.")
     else:
-        st.dataframe(my_leaves.astype(str), width="stretch")
+        st.dataframe(my_leaves.astype(str), use_container_width=True)
 
 def render_hr_leave_management():
     st.markdown('<div class="header-style">👥 HR Leave Management</div>', unsafe_allow_html=True)
@@ -758,7 +758,7 @@ def render_hr_leave_management():
     if processed_leaves.empty:
         st.info("No processed applications.")
     else:
-        st.dataframe(processed_leaves.astype(str), width="stretch")
+        st.dataframe(processed_leaves.astype(str), use_container_width=True)
 
 def render_login_page():
     st.markdown("""

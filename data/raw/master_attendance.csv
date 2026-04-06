@@ -2547,3 +2547,365 @@ Emp code,At Date,shift,In Time,Out Time,Tot Work Time,Emp Name,Late In Flag,Earl
 6099,05-04-2026,1,06:56,15:35,08:39,Marimuthu R,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1
 6101,05-04-2026,G,08:47,18:06,09:20,Ilan Kumaran V,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1
 6107,05-04-2026,G,06:49,15:38,08:49,Srinivasan S,1,0,0,1,Quality,,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1
+19002,06-04-2026,G,14:59,23:33,08:34,NAVEEN N,0,1,1,0,SMT,,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19003,06-04-2026,G,14:57,23:42,08:45,LOKESH P,0,1,1,0,Manufacturing,M2,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19008,06-04-2026,G,07:00,18:11,11:11,SHIBU S,1,1,0,0,Tool Room,,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19020,06-04-2026,3,23:01,07:36,08:36,M.VEERANA KARUPPU,0,1,1,0,Manufacturing,M1,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19028,06-04-2026,G,09:15,18:22,09:08,K.R.P. CHELLA GANESH,0,1,1,0,Quality,,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19031,06-04-2026,2,14:48,23:36,08:48,JEYA KUMAR R,1,1,0,0,Manufacturing,M1,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19032,06-04-2026,G,09:03,18:10,09:07,GOPINATH A,0,1,1,0,Process Engineering,,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19034,06-04-2026,3,22:54,07:36,08:43,MARIMALLUSAMY M,1,1,0,0,Manufacturing,M1,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19040,06-04-2026,G,14:53,23:31,08:37,SUNDARAPANDI S,0,1,1,0,Stores,,NAPS,Contractor,Apprentice,Apprentice,Male,08-01-2025,381,1
+19044,06-04-2026,2,15:02,23:31,08:30,C Boopathi,0,1,1,0,Manufacturing,M3,Apprentice,Contractor,Apprentice,Apprentice,Male,29-01-2025,360,1
+19045,06-04-2026,G,09:01,18:56,09:56,MUTHUMANI S,0,1,1,0,Process Engineering,,NAPS,Contractor,Apprentice,Apprentice,Male,05-03-2025,325,1
+19047,06-04-2026,G,15:06,23:36,08:29,PRADEEP P,0,1,1,0,Maintenance,,NAPS,Contractor,Apprentice,Apprentice,Male,25-04-2025,274,1
+19063,06-04-2026,1,07:00,15:37,08:37,GOWSIK KUMAR S,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,07-02-2025,351,1
+19068,06-04-2026,1,07:06,15:41,08:35,MUTHURAJ C,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19069,06-04-2026,2,14:52,23:35,08:43,SANTHOSH KUMAR B,1,1,0,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19070,06-04-2026,1,07:06,15:40,08:33,SURYA M,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19082,06-04-2026,1,07:03,15:38,08:36,KIRUTHIGA J,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Female,17-09-2025,129,1
+19083,06-04-2026,1,07:03,15:41,08:38,SRISHMA B,0,1,1,0,Manufacturing,M3,Apprentice,Contractor,Apprentice,Apprentice,Female,15-09-2025,131,1
+19084,06-04-2026,1,07:03,15:41,08:38,KAVIYA R,0,1,1,0,Manufacturing,M3,Apprentice,Contractor,Apprentice,Apprentice,Female,23-09-2025,123,1
+19085,06-04-2026,1,06:34,17:30,10:56,CHINNAMMAL K,1,1,0,0,Manufacturing,,Apprentice,Contractor,Apprentice,Apprentice,Female,23-09-2025,123,1
+19086,06-04-2026,G,07:05,15:33,08:29,Vignesh,1,0,0,1,Vendor Development,,NAPS,Contractor,Apprentice,Apprentice,Male,29-09-2025,117,1
+19090,06-04-2026,G,06:58,15:45,08:46,ALAGURAJ R,1,0,0,1,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,14-10-2025,102,1
+19097,06-04-2026,G,07:43,22:43,15:01,RAMAR P,1,1,0,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,03-11-2025,82,1
+19105,06-04-2026,G,08:57,18:05,09:09,YUGASINI K,0,1,1,0,Maintenance,,NAPS,Contractor,Apprentice,Apprentice,Female,27-11-2025,58,1
+19108,06-04-2026,1,06:55,15:48,08:54,MIRUDHULA M,1,1,0,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Female,01-12-2025,54,1
+19111,06-04-2026,1,06:55,15:56,09:01,KEERTHANA S,1,1,0,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Female,01-12-2025,54,1
+19112,06-04-2026,G,08:54,18:20,09:25,BHUVANESHWARAN B,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,01-12-2025,54,1
+19116,06-04-2026,G,09:02,18:29,09:27,ARUNKUMARAN P,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,01-12-2025,54,1
+19124,06-04-2026,G,08:49,18:01,09:11,JOSEPH SURYARAJ S,1,1,0,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,03-12-2025,52,1
+19125,06-04-2026,G,08:55,18:30,09:34,VIGNESH M,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,03-12-2025,52,1
+19128,06-04-2026,G,22:49,,,MAREESWARAN S,0,0,1,0,Manufacturing,M2,NAPS,Contractor,Apprentice,Apprentice,Male,05-12-2025,50,1
+19130,06-04-2026,1,06:57,15:35,08:38,VIGNESH MANIKANDAN,1,1,0,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,15-12-2025,40,1
+19131,06-04-2026,G,07:32,,,SIVANARAYANAN VARIMALAI,1,0,0,0,Tool Room,,Apprentice,Contractor,Apprentice,Apprentice,Male,15-12-2025,40,1
+19132,06-04-2026,G,06:52,15:37,08:46,NAVANEETHAKRISHNAN,1,0,0,1,Manufacturing,M2,NAPS,Contractor,Apprentice,Apprentice,Male,17-12-2025,38,1
+19134,06-04-2026,1,07:05,15:31,08:26,KISHORE BALA R.K.T,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,17-12-2025,38,1
+19142,06-04-2026,1,07:05,,,SUBA SIVA S,0,0,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,17-12-2025,38,1
+19146,06-04-2026,G,08:55,18:07,09:11,HARI VIGNESH B,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,13-01-2026,11,0
+19147,06-04-2026,G,08:55,18:05,09:11,NAZEER AHAMED B,0,1,1,0,Manufacturing,,NAPS,Contractor,Apprentice,Apprentice,Male,13-01-2026,11,0
+7395,06-04-2026,G,07:33,22:54,15:21,DINAKARAN A,1,1,0,0,Tool Room,,QMS,Contractor,Apprentice,Apprentice,Male,01-09-2023,876,1
+7450,06-04-2026,2,15:00,23:31,08:31,PRAVEENKUMAR A,0,1,1,0,Manufacturing,M3,QMS,Contractor,Apprentice,Apprentice,Male,01-02-2024,723,1
+7923,06-04-2026,G,08:31,18:13,09:41,GAYATHRI,1,1,0,0,Manufacturing,,QMS,Contractor,Apprentice,Apprentice,Male,22-01-2026,2,0
+8762,06-04-2026,3,23:00,07:39,08:39,SIVA A,0,1,1,0,Manufacturing,M2,QMS,Contractor,Apprentice,Apprentice,Male,26-03-2021,1765,1
+9926,06-04-2026,1,07:00,15:37,08:37,U.KARTHIK,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+9939,06-04-2026,2,14:52,23:31,08:39,K SATHISHKUMAR,1,1,0,0,Manufacturing,M3,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+9955,06-04-2026,1,06:48,15:42,08:55,S RUBINA,1,1,0,0,Manufacturing,M2,NAPS,Contractor,Apprentice,Apprentice,Female,01-04-2025,298,1
+9996,06-04-2026,G,15:19,23:29,08:10,VINCENT RAJ A,0,1,1,0,Purchase,,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+9997,06-04-2026,G,08:54,18:16,09:22,NISHANTH N,0,1,1,0,Manufacturing,M2,NAPS,Contractor,Apprentice,Apprentice,Male,01-04-2025,298,1
+19101,06-04-2026,2,15:16,23:33,08:16,SAKTHIVEL G,0,1,1,0,Manufacturing,M3,NAPS,Contractor,Contractor,Contractor,Male,04-11-2025,81,1
+5984,06-04-2026,2,15:15,23:32,08:16,Sarath Kumar S,0,1,1,0,Quality,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7010,06-04-2026,2,14:59,23:32,08:33,G.MANIKANDAN,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,20-04-2022,1375,1
+7011,06-04-2026,2,19:13,03:33,08:20,S.DURAI MURUGAN,0,0,1,1,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7025,06-04-2026,1,06:56,15:39,08:42,A.VINITHA,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7028,06-04-2026,1,07:03,11:09,04:05,MURUGASWARI,0,0,1,1,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7044,06-04-2026,1,06:59,17:09,10:09,G.LALITHA DEVI,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7048,06-04-2026,1,07:03,18:10,11:06,P.ROJA,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7049,06-04-2026,2,14:45,23:32,08:47,A.KAYALVIZH,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7050,06-04-2026,2,14:55,23:32,08:36,J.SUDHA,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7051,06-04-2026,2,14:44,23:32,08:48,K.VENNILA,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7054,06-04-2026,1,07:00,15:41,08:41,S.AARTHI,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7062,06-04-2026,1,06:51,15:35,08:44,K.REKA,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7078,06-04-2026,2,14:43,23:33,08:49,A.DEEPA,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7083,06-04-2026,3,23:34,,,T.THALAPATHI GOPI,0,0,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7086,06-04-2026,2,14:56,23:38,08:41,A.PRABHAKARAN,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7092,06-04-2026,G,07:25,17:21,09:56,PUTHIYARAJAN,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7114,06-04-2026,1,07:03,15:47,08:45,B.KARTHIKEYAN,0,1,1,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7132,06-04-2026,G,15:09,23:31,08:23,MANIKANDAN.S,0,1,1,0,Stores,,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7142,06-04-2026,G,09:05,22:27,13:23,SRIKARTHICK RAJAN.K,0,1,1,0,Planning,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7151,06-04-2026,1,07:03,19:32,12:29,A.AATHIRAMILAKI,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7153,06-04-2026,1,06:54,15:40,08:46,JULIE VIJAYA THANGAM.V,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7156,06-04-2026,1,06:59,15:33,08:34,MANOJKUMAR,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7158,06-04-2026,2,15:01,23:35,08:35,B.UTHAYA KUMAR,0,1,1,0,Manufacturing,M3,D2D,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7199,06-04-2026,1,07:01,15:37,08:37,K.DEEPIKA,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7227,06-04-2026,3,19:08,07:40,12:32,M.ANBUMURUGAN,1,1,0,0,Manufacturing,M3,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7247,06-04-2026,G,09:03,18:01,08:59,P.Ajay Nizanth,0,1,1,0,Stores,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7262,06-04-2026,3,22:55,07:39,08:43,SURIYA.M,1,1,0,0,Manufacturing,M1,SIV,Contractor,Contractor,Contractor,Male,14-04-2022,1381,1
+7322,06-04-2026,G,14:53,23:31,08:38,B.MANOHARAN,0,1,1,0,Stores,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7323,06-04-2026,G,06:09,17:21,11:12,murugan,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7340,06-04-2026,2,14:38,23:36,08:58,J.MANIKANDAN,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7344,06-04-2026,1,06:58,17:27,10:29,M.MARUDHU PANDI,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7356,06-04-2026,1,06:47,19:15,12:27,SAMSUDIN,1,1,0,0,Manufacturing,M2,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7365,06-04-2026,G,06:18,16:01,09:42,V ANJUGAM,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7371,06-04-2026,1,07:15,17:27,10:11,K PRASANTH,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7390,06-04-2026,G,09:12,18:20,09:07,BALAJI KK,0,1,1,0,Process Engineering,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7398,06-04-2026,G,14:57,23:42,08:44,VELAYUTHA PERUMAL S,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7402,06-04-2026,1,07:05,15:37,08:32,A.SUNDAR,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7407,06-04-2026,1,06:59,15:52,08:54,K.PRAMILA,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,10-01-2024,745,1
+7411,06-04-2026,1,06:55,15:38,08:44,MOHANA S,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7419,06-04-2026,3,22:46,07:35,08:49,MANIKANDAN M,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7420,06-04-2026,2,14:56,23:38,08:41,PRABHAKARAN A,1,1,0,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7422,06-04-2026,1,06:58,15:33,08:34,PRADEEP C,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7426,06-04-2026,3,23:34,,,THARUN R,0,0,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,19-01-2024,736,1
+7428,06-04-2026,1,06:46,18:22,11:36,SRIKANTH S,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7432,06-04-2026,G,06:48,15:54,09:06,MILTON JEBARAJ R,1,0,0,1,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7439,06-04-2026,1,06:47,,,RANJITHKUMAR P,1,0,0,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7443,06-04-2026,1,07:09,15:42,08:33,BALAMURUGAN A,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7460,06-04-2026,1,06:57,15:36,08:39,GOPINATH S,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7462,06-04-2026,1,07:01,17:30,10:29,VIJAYA BOOPATHY B,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7469,06-04-2026,1,06:54,18:23,11:30,VIJESHWARAN B,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7476,06-04-2026,G,07:07,23:39,16:32,KALICHARAN B,1,1,0,0,Manufacturing,M2,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7480,06-04-2026,2,14:55,23:33,08:39,SANGEETHA R,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7483,06-04-2026,1,07:04,15:37,08:32,DEEPARANI K,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7485,06-04-2026,2,15:02,23:35,08:33,BHUVANESHWARAN P,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7490,06-04-2026,G,08:59,18:04,09:05,SAKTHIVEL G,0,1,1,0,Maintenance,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7491,06-04-2026,1,06:09,18:41,12:32,PREMKUAMAR.M,1,1,0,0,Planning,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7494,06-04-2026,2,14:52,23:32,08:40,V.SATHISH,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7495,06-04-2026,G,14:58,23:35,08:38,K.SUDHARSAN,0,1,1,0,Quality,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7497,06-04-2026,1,06:54,15:42,08:47,EZHILARASI M,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7505,06-04-2026,G,14:46,23:31,08:46,VINOTHKUMAR A,0,1,1,0,Stores,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7506,06-04-2026,G,06:09,17:21,11:13,BALAMURUGAN A,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7508,06-04-2026,G,07:15,17:39,10:24,VIJIKUMAR S,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7516,06-04-2026,2,14:47,23:35,08:48,MANTHAIYAMMAL M,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7521,06-04-2026,1,07:05,15:40,08:35,SANTHIYA P,0,1,1,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7527,06-04-2026,1,07:48,18:54,11:07,KARUPPANAN S,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7532,06-04-2026,2,15:34,23:37,08:02,PREMKUMAR D,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7534,06-04-2026,3,22:49,07:45,08:57,SOWROW B,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7535,06-04-2026,2,14:52,23:32,08:40,KAMESH WARAN K,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7539,06-04-2026,1,07:13,15:43,08:31,PRAVEEN R,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,13-06-2024,590,1
+7547,06-04-2026,1,06:53,15:36,08:43,DEEPA K,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7550,06-04-2026,2,14:47,23:32,08:46,SOUNDHARYA D,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7552,06-04-2026,1,07:03,15:41,08:37,SHARMILA T,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7554,06-04-2026,3,22:48,07:36,08:49,HARIPRASATH R,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,18-06-2024,585,1
+7555,06-04-2026,1,07:01,17:30,10:28,MAKILAN D,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7559,06-04-2026,1,06:58,15:37,08:39,PRIYA N,1,1,0,0,Manufacturing,M3,RAJ,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7565,06-04-2026,G,14:56,23:30,08:33,HARISH K,0,1,1,0,Tool Room,,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7567,06-04-2026,G,09:17,18:12,08:55,ARAVINTH B,0,1,1,0,Process Engineering,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7577,06-04-2026,1,06:57,15:35,08:39,R.Pavithra,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7578,06-04-2026,2,14:49,23:32,08:44,S.Malaivani,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7604,06-04-2026,1,06:50,15:54,09:05,VALLARASU R,1,1,0,0,Manufacturing,M2,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7609,06-04-2026,1,06:59,17:38,10:39,A.MYTHILI,1,1,0,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7617,06-04-2026,1,06:59,15:38,08:38,RAKKAYEE P,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7632,06-04-2026,2,14:45,23:34,08:49,G.POTHUMANI,1,1,0,0,Manufacturing,M3,RAJ,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7633,06-04-2026,1,07:09,15:42,08:33,M.MANOJ,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7640,06-04-2026,1,06:58,17:27,10:28,V.SURYA VEERANAN,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7644,06-04-2026,1,06:58,19:56,12:57,S.SANTHOSH KUMAR,1,1,0,0,Manufacturing,M1,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7653,06-04-2026,1,06:58,15:43,08:45,SARAN KUMAR G,1,1,0,0,Manufacturing,M2,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7655,06-04-2026,1,06:57,15:52,08:55,REVATHI V,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7669,06-04-2026,G,06:14,16:04,09:49,PANJU A,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7680,06-04-2026,G,15:02,23:35,08:34,G.SARAVANA KUMAR,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7683,06-04-2026,G,08:09,17:21,09:12,DINAKARAN M,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,26-12-2022,1125,1
+7688,06-04-2026,2,14:55,23:33,08:38,VAISHALI M,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-02-2025,357,1
+7689,06-04-2026,1,06:59,17:38,10:40,M Swetha,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7691,06-04-2026,G,07:00,15:39,08:39,P Ramya,1,0,0,1,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7692,06-04-2026,2,14:46,23:30,08:45,T Vanitha,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7693,06-04-2026,2,14:46,23:30,08:43,S Subha,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7697,06-04-2026,1,15:02,,,P Nithishkumar,0,0,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7699,06-04-2026,2,14:48,23:32,08:43,Boomadevi P,1,1,0,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7701,06-04-2026,2,15:00,23:32,08:33,SANTHOSH KUMAR M,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-02-2025,357,1
+7707,06-04-2026,G,09:07,18:17,09:11,MAGALINGAM K,0,1,1,0,Process Engineering,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7711,06-04-2026,1,06:56,15:37,08:41,NEELASUNDARI V,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,28-04-2025,271,1
+7712,06-04-2026,2,15:00,23:30,08:31,GOVIDARAJ T,0,1,1,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,28-04-2025,271,1
+7713,06-04-2026,G,07:05,15:34,08:28,RAMKUMAR K,1,0,0,1,Maintenance,,QMS,Contractor,Contractor,Contractor,Male,29-04-2025,270,1
+7717,06-04-2026,G,06:59,15:33,08:34,SANJAY S,1,0,0,1,Stores,,QMS,Contractor,Contractor,Contractor,Male,16-05-2025,253,1
+7719,06-04-2026,G,06:59,15:34,08:34,SATHISH D,1,0,0,1,Stores,,QMS,Contractor,Contractor,Contractor,Male,20-05-2025,249,1
+7722,06-04-2026,2,14:45,23:33,08:47,VARSHA R,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7724,06-04-2026,2,14:42,23:33,08:51,POTHUMPONNU M,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7726,06-04-2026,2,14:45,23:34,08:48,JEYASRI G,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7727,06-04-2026,1,06:36,15:52,09:15,DHANALAKSHMI S,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7730,06-04-2026,1,06:45,15:39,08:55,NEELA P,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+7733,06-04-2026,1,07:05,15:47,08:41,YUVARAJ,0,1,1,0,Manufacturing,,SIV,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7734,06-04-2026,2,14:55,23:36,08:41,RAHUL P,1,1,0,0,Manufacturing,,RAJ,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7762,06-04-2026,G,06:31,15:56,09:26,BRINDHA SIVAGANAM,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,23-07-2025,185,1
+7766,06-04-2026,G,06:48,18:00,11:13,MUNICHAMY K,1,1,0,0,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,31-07-2025,177,1
+7769,06-04-2026,2,15:02,23:32,08:31,KARTHIKEYAN M,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-08-2025,176,1
+7771,06-04-2026,2,14:58,23:34,08:35,ABIRAMI N,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,18-08-2025,159,1
+7773,06-04-2026,2,14:45,23:34,08:48,KANCHANA K,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-09-2025,145,1
+7774,06-04-2026,2,14:53,23:34,08:40,RASHIKA S,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,01-09-2025,145,1
+7785,06-04-2026,2,14:54,23:33,08:40,MAHALAKSHMI L,1,1,0,0,Manufacturing,,SIV,Contractor,Contractor,Contractor,Female,02-09-2025,144,1
+7786,06-04-2026,2,14:54,19:55,05:01,KARPAGAM M,1,0,0,1,Manufacturing,M3,SIV,Contractor,Contractor,Contractor,Female,02-09-2025,144,1
+7790,06-04-2026,G,09:03,18:05,09:01,SARAVANAN S,0,1,1,0,Manufacturing,,SIV,Contractor,Contractor,Contractor,Male,03-09-2025,143,1
+7795,06-04-2026,G,14:59,23:32,08:33,VIGNESHWARAN V,0,1,1,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,10-09-2025,136,1
+7796,06-04-2026,1,07:02,15:39,08:38,NANTHA KUMAR G,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,15-09-2025,131,1
+7806,06-04-2026,2,15:02,23:34,08:32,ARCHANA B,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,18-09-2025,128,1
+7807,06-04-2026,3,22:50,07:35,08:45,THANGA PANDI P,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,22-09-2025,124,1
+7809,06-04-2026,2,14:45,23:30,08:44,RAJESHWARI G,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,21-09-2025,125,1
+7813,06-04-2026,2,14:49,23:32,08:43,Malaiyayee A,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,29-09-2025,117,1
+7815,06-04-2026,G,07:04,15:48,08:45,Venkatesh R,1,0,0,1,Stores,,RAJ,Contractor,Contractor,Contractor,Male,06-10-2025,110,1
+7816,06-04-2026,G,07:05,15:41,08:36,Abinaya M,1,0,0,1,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,06-10-2025,110,1
+7824,06-04-2026,G,08:51,18:04,09:14,KOWSALYA J,0,1,1,0,HR & Admin,,QMS,Contractor,Contractor,Contractor,Female,16-10-2025,100,1
+7825,06-04-2026,2,14:46,23:35,08:49,THILAGAVATHI V,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,01-11-2025,84,1
+7826,06-04-2026,1,06:59,15:40,08:41,HEMALATHA N,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,27-10-2025,89,1
+7832,06-04-2026,1,07:01,17:30,10:29,PRASATH,0,1,1,0,Manufacturing,M3,RAJ,Contractor,Contractor,Contractor,Male,29-10-2025,87,1
+7834,06-04-2026,1,07:00,15:39,08:38,DHANALAKSHMI,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,29-10-2025,87,1
+7837,06-04-2026,G,07:41,18:55,11:14,UDHAYA PRAKASH,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,29-10-2025,87,1
+7839,06-04-2026,1,06:53,17:50,10:56,VARSHINI M,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,12-12-2025,43,1
+7840,06-04-2026,G,07:08,18:01,10:52,ASWIN K,1,1,0,0,Quality,,QMS,Contractor,Contractor,Contractor,Male,12-12-2025,43,1
+7841,06-04-2026,2,15:01,23:31,08:31,KANNAN A,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-11-2025,84,1
+7844,06-04-2026,2,15:01,23:31,08:31,JERSHAHAN R,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,03-11-2025,82,1
+7846,06-04-2026,1,07:03,15:41,08:38,SASIKALA C,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,10-11-2025,75,1
+7847,06-04-2026,G,07:37,22:56,15:18,SIDDHAR S,1,1,0,0,Maintenance,,QMS,Contractor,Contractor,Contractor,Male,10-11-2025,75,1
+7848,06-04-2026,1,07:00,15:36,08:35,VISHVA M,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,10-11-2025,75,1
+7858,06-04-2026,1,07:09,15:42,08:33,GANESH PANDIAN R,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,11-11-2025,74,1
+7874,06-04-2026,1,07:01,15:57,08:57,MEENA,0,1,1,0,Purchase,,QMS,Contractor,Contractor,Contractor,Female,21-11-2025,64,1
+7875,06-04-2026,G,07:05,18:09,11:04,ANBARASAN,1,1,0,0,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,21-11-2025,64,1
+7879,06-04-2026,G,09:07,17:58,08:52,INBARAJ U,0,0,1,1,Stores,,QMS,Contractor,Contractor,Contractor,Male,26-11-2025,59,1
+7881,06-04-2026,2,14:45,23:30,08:44,ELAKKIYA,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,01-12-2025,54,1
+7883,06-04-2026,1,07:05,18:17,11:11,BHUVANA K,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,01-12-2025,54,1
+7885,06-04-2026,2,14:48,23:36,08:48,Vetri Selvan,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+7886,06-04-2026,G,09:19,18:04,08:46,ARUNKUMAR,0,1,1,0,Maintenance,,QMS,Contractor,Contractor,Contractor,Male,26-11-2025,59,1
+7887,06-04-2026,G,09:07,18:02,08:55,CHANDRU,0,1,1,0,Maintenance,,RAJ,Contractor,Contractor,Contractor,Male,04-12-2025,51,1
+7890,06-04-2026,G,10:58,20:21,09:24,SIVARANJITH,0,1,1,0,Purchase,,RAJ,Contractor,Contractor,Contractor,Male,08-12-2025,47,1
+7897,06-04-2026,2,15:48,,,MOHAMMED RASITH,0,0,1,0,Manufacturing,M2,SIV,Contractor,Contractor,Contractor,Male,09-12-2025,46,1
+7899,06-04-2026,2,14:46,23:35,08:49,KAMALI,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,28-12-2025,27,1
+7903,06-04-2026,2,15:16,23:34,08:18,SARAVANARAJA,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,15-12-2025,40,1
+7904,06-04-2026,1,07:04,15:41,08:36,JOSAPIN RUBIYA,0,1,1,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,15-12-2025,40,1
+7909,06-04-2026,G,09:12,21:30,12:17,THANGAPANDI R,0,1,1,0,Purchase,,QMS,Contractor,Contractor,Contractor,Male,24-12-2025,31,1
+7911,06-04-2026,G,07:04,15:41,08:37,RAJENDRACHOLAN,1,0,0,1,Manufacturing,,RAJ,Contractor,Contractor,Contractor,Male,31-12-2025,24,1
+7914,06-04-2026,2,15:04,23:37,08:33,RATHAN BABU,0,1,1,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,31-12-2025,24,1
+7915,06-04-2026,1,06:59,15:36,08:38,VIJAY SRIRAM,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,01-01-2026,23,1
+7918,06-04-2026,G,14:50,23:31,08:40,UTHAYA PRAKASH,0,1,1,0,Stores,,QMS,Contractor,Contractor,Contractor,Male,05-01-2026,19,1
+7919,06-04-2026,G,08:55,18:03,09:07,KAVIYARASAN,0,1,1,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Male,12-01-2026,12,0
+7920,06-04-2026,G,08:31,18:13,09:41,HARINI S,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,12-01-2026,12,0
+8023,06-04-2026,2,14:59,23:35,08:37,Rasu Kutty R,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8193,06-04-2026,2,15:02,23:37,08:35,SATHISH KUMAR M,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8256,06-04-2026,G,06:52,16:04,09:13,AMARAJOTHI,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8268,06-04-2026,2,14:56,23:32,08:35,P CHELLAMMAL,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8293,06-04-2026,1,06:59,15:42,08:44,PRAGADEESWARI R,1,1,0,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8495,06-04-2026,2,15:01,23:34,08:32,Divyabharathi S,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8537,06-04-2026,G,06:06,15:16,09:09,NACHAMMAL N,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8538,06-04-2026,G,06:32,15:27,08:55,Sudha M,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8539,06-04-2026,G,07:20,16:08,08:49,MUTHU SAMY A,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8611,06-04-2026,1,07:12,15:43,08:31,BHAVANI R,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8642,06-04-2026,3,19:08,07:40,12:32,AJAY K,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8645,06-04-2026,1,07:04,15:40,08:37,BALAMURUGAN M,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8655,06-04-2026,1,07:01,19:31,12:30,MAHARAJA M,0,1,1,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8665,06-04-2026,2,14:49,23:34,08:44,MANONMANI V,1,1,0,0,Manufacturing,,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8689,06-04-2026,1,06:58,15:34,08:36,SWATHI C,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8702,06-04-2026,G,15:05,23:32,08:26,SHANKAR M,0,1,1,0,Stores,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8760,06-04-2026,G,08:56,18:11,09:14,VELMURUGAN MS,0,1,1,0,Quality,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8805,06-04-2026,3,22:47,07:35,08:48,CHELLAPANDI V,1,1,0,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8817,06-04-2026,2,14:39,23:38,08:59,VINOTH M,1,1,0,0,Manufacturing,M1,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8821,06-04-2026,2,14:50,03:29,12:39,JEYA PRAKASH M,1,0,0,1,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8833,06-04-2026,1,07:04,15:40,08:36,PAVITHRA S,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8873,06-04-2026,2,15:01,23:34,08:33,Jency Selciya S,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Female,01-04-2025,298,1
+8912,06-04-2026,1,07:03,15:41,08:38,M.GANESH KUMAR,0,1,1,0,Manufacturing,M2,QMS,Contractor,Contractor,Contractor,Male,01-02-2022,1453,1
+8963,06-04-2026,2,15:01,23:31,08:31,M.PRASHANTH,0,1,1,0,Manufacturing,M3,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+8978,06-04-2026,G,08:59,18:04,09:04,P.JAYANTHAN,0,1,1,0,Maintenance,,QMS,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+5603,06-04-2026,G,06:43,16:01,09:17,Pandi K,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+5604,06-04-2026,G,06:52,16:09,09:17,Ramar A,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+5605,06-04-2026,G,06:58,16:01,09:03,Veeranan,1,0,0,1,HR & Admin,,ARC,Contractor,Contractor,Contractor,Male,01-04-2025,298,1
+6347,06-04-2026,G,13:22,,,Sri Ram M,0,0,1,0,HR & Admin,,,OPERATOR,On Roll,OPERATOR,Male,04-06-2015,3887,1
+6380,06-04-2026,G,14:52,,,MURUGAN P,0,0,1,0,HR & Admin,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2017,3129,1
+6401,06-04-2026,1,07:09,15:43,08:34,ANANDH R,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6402,06-04-2026,2,15:04,23:35,08:31,SEVUKAMOORTHI A,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6403,06-04-2026,2,15:52,,,SUGAPRIYADEVI R,0,0,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-08-2018,2733,1
+6405,06-04-2026,3,22:46,07:40,08:55,BOOPATHI RAJA M,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6406,06-04-2026,1,07:04,15:34,08:31,VIGNESH R,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6407,06-04-2026,1,06:50,15:33,08:42,HARIBABU L,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6409,06-04-2026,1,08:10,15:55,07:44,SHANMUGAPRASATH S,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6410,06-04-2026,1,06:58,15:42,08:44,RAJARAM M,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-08-2018,2733,1
+6420,06-04-2026,2,14:55,23:33,08:39,Susila Devi C,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-01-2019,2580,1
+6421,06-04-2026,2,14:56,23:32,08:36,Elango A,1,1,0,0,Planning,,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6422,06-04-2026,G,11:01,20:14,09:13,Prabu S,0,1,1,0,Quality,,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6423,06-04-2026,1,07:04,15:42,08:38,Pounraj R,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6424,06-04-2026,1,07:00,17:33,10:33,Esakikumar S,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6425,06-04-2026,G,14:58,23:31,08:33,Thiruvenkadam S,0,1,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6427,06-04-2026,G,14:54,23:33,08:39,Chandru P,0,1,1,0,Process Engineering,,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6428,06-04-2026,2,14:45,23:34,08:48,Geetha R,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-01-2019,2580,1
+6429,06-04-2026,2,15:02,23:31,08:29,Arun Kumar A,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6430,06-04-2026,3,22:57,07:47,08:50,Balamurali C,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-01-2019,2580,1
+6457,06-04-2026,1,06:59,15:33,08:33,KANNAN A,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-07-2019,2399,1
+6459,06-04-2026,G,14:53,23:31,08:39,ARUMUGAM T,0,1,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2019,2399,1
+6460,06-04-2026,2,14:54,23:30,08:36,SANGILI K,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-07-2019,2399,1
+6461,06-04-2026,1,06:57,17:09,10:11,DINESH BABU M,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-07-2019,2399,1
+6481,06-04-2026,G,07:00,15:37,08:36, BALAMURUGAN A,1,0,0,1,Quality,,,OPERATOR,On Roll,OPERATOR,Male,02-11-2020,1909,1
+6591,06-04-2026,1,07:00,15:43,08:42,KOTTAI KARUPPUSAMY A,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6592,06-04-2026,2,14:47,23:34,08:48,VAIRAMUTHU M,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-06-2023,968,1
+6593,06-04-2026,1,07:04,08:54,01:50,SUGANYA P,0,0,1,1,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-06-2023,968,1
+6594,06-04-2026,G,06:53,17:37,10:44,SEENIVASAGAM S,1,0,0,1,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6595,06-04-2026,G,08:46,18:06,09:19,SATHESHKUMAR A,1,1,0,0,Quality,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6596,06-04-2026,2,14:55,23:38,08:43,MAGUTAPATHI G,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6597,06-04-2026,2,14:59,,,SAMBAPATHI P,1,0,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6598,06-04-2026,1,06:59,15:47,08:47,PRASANTH S,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6599,06-04-2026,1,06:58,17:28,10:31,SAKTHIMURUGAN K,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6600,06-04-2026,3,07:37,,,AYYANAR G,1,0,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6601,06-04-2026,2,14:58,23:31,08:33,SABITHA K,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-06-2023,968,1
+6602,06-04-2026,3,23:00,07:36,08:36,THAVASUMANI KR,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6603,06-04-2026,2,14:50,23:35,08:45,RAJA S,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6604,06-04-2026,2,15:26,23:37,08:10,PANDIARAJAN T,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6607,06-04-2026,1,07:01,15:42,08:41,AJITHKUMAR R,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6608,06-04-2026,G,09:08,18:13,09:06,THAVAMURUGAN M,0,1,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6609,06-04-2026,G,09:11,18:11,08:59,ARUN PRASATH G,0,1,1,0,Tool Room,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6612,06-04-2026,2,14:51,23:39,08:48,MURUGESAN K,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6613,06-04-2026,1,07:01,08:53,01:52,REVATHI M,0,0,1,1,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-06-2023,968,1
+6614,06-04-2026,1,06:56,15:54,08:59,KAVIN T,1,1,0,0,Stores,M2,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6615,06-04-2026,1,07:02,15:36,08:34,NITHYA A,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Female,01-06-2023,968,1
+6616,06-04-2026,3,23:39,,,ARUNPANDIAN K,0,0,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6617,06-04-2026,G,09:37,18:12,08:34,AJITHKUMAR M,0,1,1,0,Process Engineering,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6618,06-04-2026,G,14:55,23:30,08:36,NATARAJAN M,0,1,1,0,Tool Room,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6620,06-04-2026,G,06:58,16:00,09:03,THAVASI M,1,0,0,1,HR & Admin,,,OPERATOR,On Roll,OPERATOR,Male,01-06-2023,968,1
+6628,06-04-2026,G,15:05,23:30,08:25,N RAJESHKUMAR,0,1,1,0,Tool Room,,,OPERATOR,On Roll,OPERATOR,Male,01-08-2023,907,1
+6695,06-04-2026,1,07:02,17:33,10:32,PONNU MUTHU,0,1,1,0,Manufacturing,,,OPERATOR,On Roll,OPERATOR,Female,20-08-2025,157,1
+6012,06-04-2026,1,07:01,14:30,07:30,Neethi A,0,0,1,1,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-04-2000,9429,1
+6017,06-04-2026,G,14:54,23:31,08:37,Srinivasan N,0,1,1,0,Manufacturing,,,OPERATOR,On Roll,OPERATOR,Male,01-04-2001,9064,1
+6018,06-04-2026,G,08:50,18:04,09:13,Pandithurai K,0,1,1,0,HR & Admin,,,OPERATOR,On Roll,OPERATOR,Male,02-04-1998,10159,1
+6031,06-04-2026,2,14:52,23:33,08:42,Prabhaharan T,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-10-1999,9612,1
+6033,06-04-2026,1,06:56,15:34,08:37,Chandrasekar R,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-10-1999,9612,1
+6075,06-04-2026,G,07:00,15:41,08:41,Sudalaimani V,1,0,0,1,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6076,06-04-2026,G,06:49,16:08,09:19,Senthil K,1,0,0,1,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6081,06-04-2026,G,08:27,19:37,11:10,Ramesh K,1,1,0,0,Purchase,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6082,06-04-2026,G,06:58,15:36,08:37,Munichamy N,1,0,0,1,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6083,06-04-2026,G,08:43,21:04,12:20,Kannan O S,1,1,0,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6084,06-04-2026,G,06:59,17:17,10:17,Prabu Arunkumar A,1,0,0,1,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6085,06-04-2026,2,14:58,00:24,09:26,Selvarajan K,1,0,0,1,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-07-2004,7877,1
+6102,06-04-2026,1,06:56,15:39,08:44,Saravanan N,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,04-04-2005,7600,1
+6106,06-04-2026,G,14:57,23:30,08:32,Subramanian J,0,1,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,04-04-2005,7600,1
+6118,06-04-2026,1,06:56,15:45,08:49,Muthu T,1,1,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-09-2005,7450,1
+6138,06-04-2026,G,07:31,22:46,15:14,Gunasekar R,1,1,0,0,Process Engineering,,,OPERATOR,On Roll,OPERATOR,Male,03-05-2006,7206,1
+6139,06-04-2026,1,07:08,15:57,08:48,Prabhu A,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,03-05-2006,7206,1
+6172,06-04-2026,G,09:00,18:09,09:09,Malayaveeran K,0,1,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6173,06-04-2026,2,14:58,23:38,08:39,Mathan Kumar R,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6174,06-04-2026,1,06:57,15:36,08:39,Alagarsamy S,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6175,06-04-2026,1,06:53,17:09,10:17,Prabhu P,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6176,06-04-2026,G,07:02,18:01,11:00,Dhayakaran M,1,1,0,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6177,06-04-2026,2,14:59,23:31,08:31,Ravindran B,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6178,06-04-2026,2,16:18,,,Ramesh K,0,0,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6179,06-04-2026,1,07:05,15:38,08:33,Sivanandi P,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6180,06-04-2026,1,07:02,15:38,08:35,Nambirajan N,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-08-2007,6751,1
+6182,06-04-2026,1,06:57,15:36,08:39,Sathya A,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-08-2007,6751,1
+6183,06-04-2026,1,06:52,,,Ayee P,1,0,0,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-08-2007,6751,1
+6205,06-04-2026,G,08:46,18:40,09:54,Suresh C,1,1,0,0,HR & Admin,,,OPERATOR,On Roll,OPERATOR,Male,01-10-2008,6324,1
+6208,06-04-2026,G,08:50,18:06,09:15,Uthaya Kumar S,0,1,1,0,Purchase,,,OPERATOR,On Roll,OPERATOR,Male,01-10-2008,6324,1
+6209,06-04-2026,1,06:57,15:44,08:47,Jesurajan M,1,1,0,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-10-2008,6324,1
+6211,06-04-2026,1,07:01,15:44,08:42,Priya A,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-10-2008,6324,1
+6231,06-04-2026,2,15:02,23:33,08:30,Pandi V,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6239,06-04-2026,1,07:03,15:44,08:41,Yogeswari,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-10-2010,5594,1
+6240,06-04-2026,1,07:23,15:41,08:17,Raja T,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6241,06-04-2026,1,07:03,17:28,10:25,Asaithambi B,0,1,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6243,06-04-2026,3,22:46,07:34,08:48,Venkatesh G,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6246,06-04-2026,3,22:56,07:30,08:34,Arjun M,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6249,06-04-2026,G,07:01,15:41,08:41,Satheesh Kumar G,1,0,0,1,Process Engineering,,,OPERATOR,On Roll,OPERATOR,Male,01-10-2010,5594,1
+6271,06-04-2026,G,07:01,20:11,13:11,Shanmugaraju I,1,1,0,0,Tool Room,,,OPERATOR,On Roll,OPERATOR,Male,03-01-2012,5135,1
+6276,06-04-2026,G,08:49,18:09,09:20,Shanmugapandi M,1,1,0,0,Tool Room,,,OPERATOR,On Roll,OPERATOR,Male,21-05-2012,4996,1
+6282,06-04-2026,G,07:00,15:39,08:40,Gnanam Abraham E,1,0,0,1,Quality,,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6284,06-04-2026,1,06:59,15:35,08:37,Dineshkumar B,1,1,0,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6286,06-04-2026,2,15:19,23:31,08:13,Jothi A,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Female,01-10-2012,4863,1
+6287,06-04-2026,1,07:04,15:52,08:48,Giridharan R,0,1,1,0,Manufacturing,M2,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6290,06-04-2026,3,23:39,07:44,08:05,Anandha Kumaran M,0,1,1,0,Manufacturing,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6291,06-04-2026,1,07:03,15:42,08:40,Navaneethakannan R,0,1,1,0,Stores,M1,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6292,06-04-2026,1,15:42,,,Veeralakshmi M,0,0,1,0,Manufacturing,M3,,OPERATOR,On Roll,OPERATOR,Female,01-10-2012,4863,1
+6294,06-04-2026,1,14:50,,,Seenivasan A,0,0,1,0,Stores,,,OPERATOR,On Roll,OPERATOR,Male,01-10-2012,4863,1
+6337,06-04-2026,G,07:21,23:38,16:17,Malaiyarasan A,1,1,0,0,Maintenance,,,OPERATOR,On Roll,OPERATOR,Male,03-12-2014,4070,1
+6359,06-04-2026,G,08:50,18:08,09:17,ESWARA MOORTHI B,0,1,1,0,Quality,,,STAFF,On Roll,STAFF,Male,02-03-2016,3615,1
+6404,06-04-2026,1,06:56,15:44,08:47,RAMYA K,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Female,01-08-2018,2733,1
+6448,06-04-2026,G,06:49,15:42,08:53,PRABU SUNDAR G,1,0,0,1,Quality,,,STAFF,On Roll,STAFF,Male,17-06-2019,2413,1
+6502,06-04-2026,G,18:36,,,SABARINATHAN G,0,0,1,0,Tool Room,,,STAFF,On Roll,STAFF,Male,28-07-2021,1641,1
+6506,06-04-2026,G,07:53,23:00,15:07,VENKATESWARAN A,1,1,0,0,Maintenance,,,STAFF,On Roll,STAFF,Male,05-08-2021,1633,1
+6531,06-04-2026,2,15:01,,,KARTHYKEYA V,0,0,1,0,Quality,,,STAFF,On Roll,STAFF,Male,04-04-2022,1391,1
+6535,06-04-2026,G,08:48,18:05,09:17,JENNY PRATHIBA,1,1,0,0,Planning,,,STAFF,On Roll,STAFF,Female,06-04-2022,1389,1
+6538,06-04-2026,G,14:44,23:35,08:52,VIKNES B,0,1,1,0,Quality,,,STAFF,On Roll,STAFF,Male,27-06-2022,1307,1
+6656,06-04-2026,1,06:56,15:32,08:35,VIGNESHWARAN G,1,1,0,0,Quality,,,STAFF,On Roll,STAFF,Male,20-06-2024,583,1
+6657,06-04-2026,2,15:00,23:31,08:30,HARIPRAKASH M,0,1,1,0,Quality,,,STAFF,On Roll,STAFF,Male,01-07-2024,572,1
+6660,06-04-2026,G,08:53,,,KIRUBASANKAR N,0,0,1,0,Quality,,,STAFF,On Roll,STAFF,Male,05-08-2024,537,1
+6661,06-04-2026,3,22:46,07:35,08:50,VASANTH RAJ K,1,1,0,0,Quality,,,STAFF,On Roll,STAFF,Male,05-08-2024,537,1
+6671,06-04-2026,G,07:44,22:46,15:03,karuppasamy,1,1,0,0,Quality,,,STAFF,On Roll,STAFF,Male,04-11-2024,446,1
+6672,06-04-2026,G,08:49,18:14,09:25,Akilan,1,1,0,0,Quality,,,STAFF,On Roll,STAFF,Male,11-11-2024,439,1
+6030,06-04-2026,2,14:55,23:30,08:34,Siva Kumar R,1,1,0,0,Manufacturing,M1,,STAFF,On Roll,STAFF,Male,01-10-1999,9612,1
+6032,06-04-2026,G,07:00,19:16,12:17,Padmaraja C,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,01-10-1999,9612,1
+6040,06-04-2026,2,14:57,01:59,11:02,Veeramuthu N,1,0,0,1,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,01-01-2001,9154,1
+6078,06-04-2026,2,14:54,23:35,08:40,Kumaravel M,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,01-07-2004,7877,1
+6099,06-04-2026,1,06:56,15:35,08:39,Marimuthu R,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1
+6101,06-04-2026,G,08:47,18:06,09:20,Ilan Kumaran V,1,1,0,0,Manufacturing,M3,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1
+6107,06-04-2026,G,06:49,15:38,08:49,Srinivasan S,1,0,0,1,Quality,,,STAFF,On Roll,STAFF,Male,04-04-2005,7600,1

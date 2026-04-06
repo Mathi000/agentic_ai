@@ -142,6 +142,9 @@ def build_feature_pipeline(file_path: str) -> pd.DataFrame:
         daily_df["days_present_30d"] / 30
     )
 
+    # Keep only the latest record per employee to prevent downstream cartesian merge explosions
+    daily_df = daily_df.sort_values(by=["employee_id", "date"]).drop_duplicates(subset=["employee_id"], keep="last")
+
     # Save processed dataset
     daily_df.to_csv("data/processed/feature_engineered.csv", index=False)
 

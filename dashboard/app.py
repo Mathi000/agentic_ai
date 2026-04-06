@@ -311,7 +311,6 @@ CUSTOM_CSS = """
         border-radius: 12px !important;
         background-color: rgba(10, 15, 30, 0.8) !important;
         border: 1px solid rgba(0, 245, 255, 0.2) !important;
-        color: white !important;
         transition: all 0.3s ease !important;
     }
     
@@ -319,6 +318,17 @@ CUSTOM_CSS = """
         border-color: #00F5FF !important;
         box-shadow: 0 0 15px rgba(0, 245, 255, 0.5) !important;
         background-color: rgba(5, 10, 20, 0.9) !important;
+    }
+
+    div[data-baseweb="input"] input {
+        color: #ffffff !important;
+        -webkit-text-fill-color: #ffffff !important;
+    }
+
+    div[data-baseweb="input"] input::placeholder {
+        color: #64748b !important;
+        -webkit-text-fill-color: #64748b !important;
+        opacity: 1 !important;
     }
 
     /* ---- Holographic Sidebar & Chat ---- */
@@ -361,6 +371,7 @@ for key, default in {
     "pattern_df": None,
     "feature_df": None,
     "agent_output": None,
+    "logged_in_role": None,
     "chat_history": [{"role": "assistant", "content": "👋 Hi! I'm your Workforce AI Assistant. I can help analyze attendance patterns, flag anomalies, and summarize employee risks. How can I help you today?"}],
 }.items():
     if key not in st.session_state:
@@ -749,33 +760,74 @@ def render_hr_leave_management():
     else:
         st.dataframe(processed_leaves.astype(str), width="stretch")
 
+def render_login_page():
+    st.markdown("""
+        <div style="text-align: center; margin-top: 10vh; margin-bottom: 2rem; animation: fluidUp 1s ease-out backwards;">
+            <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 1px;">SECURE ACCESS</h1>
+            <p class="hero-subtitle">Please authenticate your identity to continue to the intelligence dashboard.</p>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1, 1.2, 1])
+    with col2:
+        with st.form("login_form", border=False):
+            st.markdown("<h3 style='color: #00F5FF; font-weight: 700; text-align: center; margin-bottom: 1rem; letter-spacing: 2px;'>CREDENTIALS</h3>", unsafe_allow_html=True)
+            username = st.text_input("System ID", placeholder="'hr' or 'emp'")
+            password = st.text_input("Passphrase", type="password", placeholder="••••")
+            
+            st.markdown("<br>", unsafe_allow_html=True)
+            submitted = st.form_submit_button("INITIALIZE CONNECTION", type="primary", use_container_width=True)
+            
+            if submitted:
+                if username == "hr" and password == "hr":
+                    st.session_state.logged_in_role = "HR"
+                    st.rerun()
+                elif username == "emp" and password == "emp":
+                    st.session_state.logged_in_role = "Employee"
+                    st.rerun()
+                else:
+                    st.error("Access Denied: Invalid ID or Passphrase.")
+
 def main():
+    if st.session_state.get("logged_in_role") is None:
+        render_login_page()
+        return
+
     # ---- Custom Sidebar ----
     with st.sidebar:
         st.image("https://img.icons8.com/nolan/256/brain.png", width=80)
         st.markdown("<h2 style='font-size: 1.8rem; font-weight: 800; margin-top: 0; color: #f8fafc;'>Workforce AI</h2>", unsafe_allow_html=True)
+        st.markdown(f"<p style='color: #94a3b8;'>Logged in as: <strong style='color:#00F5FF'>{st.session_state.logged_in_role}</strong></p>", unsafe_allow_html=True)
+        
+        if st.button("Logout", use_container_width=True):
+            st.session_state.logged_in_role = None
+            st.rerun()
+            
         st.markdown("---")
 
-        uploaded_file = st.file_uploader("Upload Attendance Dataset (CSV)", type=["csv"], label_visibility="collapsed")
-        
-        if uploaded_file and not st.session_state.pipeline_done:
-            temp_path = os.path.join(os.path.dirname(__file__), "..", "temp_upload.csv")
-            df = pd.read_csv(uploaded_file)
-            df.to_csv(temp_path, index=False)
+        if st.session_state.logged_in_role == "HR":
+            uploaded_file = st.file_uploader("Upload Attendance Dataset (CSV)", type=["csv"], label_visibility="collapsed")
+            
+            if uploaded_file and not st.session_state.pipeline_done:
+                temp_path = os.path.join(os.path.dirname(__file__), "..", "temp_upload.csv")
+                df = pd.read_csv(uploaded_file)
+                df.to_csv(temp_path, index=False)
 
-            if st.button("Initialize Deep Analysis", width="stretch", type="primary"):
-                f_df, p_df, r_df, ao = load_and_run_pipeline(temp_path)
-                st.session_state.feature_df = f_df
-                st.session_state.pattern_df = p_df
-                st.session_state.risk_df = r_df
-                st.session_state.agent_output = ao
-                st.session_state.pipeline_done = True
-                st.rerun()
+                if st.button("Initialize Deep Analysis", use_container_width=True, type="primary"):
+                    f_df, p_df, r_df, ao = load_and_run_pipeline(temp_path)
+                    st.session_state.feature_df = f_df
+                    st.session_state.pattern_df = p_df
+                    st.session_state.risk_df = r_df
+                    st.session_state.agent_output = ao
+                    st.session_state.pipeline_done = True
+                    st.rerun()
 
-        if st.session_state.pipeline_done:
-            nav_options = ["Global Dashboard", "HR Copilot Assistant", "HR Leave Management"]
+            if st.session_state.pipeline_done:
+                nav_options = ["Global Dashboard", "HR Copilot Assistant", "HR Leave Management"]
+            else:
+                nav_options = ["Welcome Hub / Upload Data"]
         else:
-            nav_options = ["Welcome Hub / Upload Data", "Employee Leave Portal"]
+            nav_options = ["Employee Leave Portal"]
 
         nav_selection = st.radio(
             "Navigation",
@@ -783,9 +835,9 @@ def main():
             label_visibility="collapsed"
         )
             
-        if st.session_state.pipeline_done:
+        if st.session_state.logged_in_role == "HR" and st.session_state.pipeline_done:
             st.markdown("---")
-            if st.button("Reset Session", width="stretch"):
+            if st.button("Reset Session", use_container_width=True):
                 for k in ["pipeline_done", "risk_df", "pattern_df", "feature_df", "agent_output"]:
                     st.session_state[k] = False if k == "pipeline_done" else None
                 st.session_state.chat_history = [st.session_state.chat_history[0]]
@@ -824,3 +876,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

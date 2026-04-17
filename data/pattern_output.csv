@@ -10,7 +10,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6031,Prabhaharan T,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6032,Padmaraja C,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6033,Chandrasekar R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-6040,Veeramuthu N,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+6040,Veeramuthu N,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 6075,Sudalaimani V,Stores,2026-06-24,Stable,Normal,High Absence Trend
 6076,Senthil K,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6078,Kumaravel M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
@@ -18,7 +18,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6082,Munichamy N,Stores,2026-06-24,Stable,Normal,High Absence Trend
 6083,Kannan O S,Stores,2026-06-24,Stable,Normal,High Absence Trend
 6084,Prabu Arunkumar A,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-6085,Selvarajan K,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+6085,Selvarajan K,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 6099,Marimuthu R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6101,Ilan Kumaran V,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6102,Saravanan N,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
@@ -44,8 +44,8 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6239,Yogeswari,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6240,Raja T,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6241,Asaithambi B,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-6243,Venkatesh G,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
-6246,Arjun M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+6243,Venkatesh G,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
+6246,Arjun M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6249,Satheesh Kumar G,Process Engineering,2026-06-24,Stable,Normal,High Absence Trend
 6271,Shanmugaraju I,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
 6276,Shanmugapandi M,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
@@ -53,14 +53,14 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6284,Dineshkumar B,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6286,Jothi A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6287,Giridharan R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-6290,Anandha Kumaran M,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+6290,Anandha Kumaran M,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 6291,Navaneethakannan R,Stores,2026-06-24,Stable,Normal,High Absence Trend
 6337,Malaiyarasan A,Maintenance,2026-06-24,Stable,Normal,High Absence Trend
 6359,ESWARA MOORTHI B,Quality,2026-06-24,Stable,Normal,High Absence Trend
 6401,ANANDH R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6402,SEVUKAMOORTHI A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6404,RAMYA K,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-6405,BOOPATHI RAJA M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+6405,BOOPATHI RAJA M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6406,VIGNESH R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6407,HARIBABU L,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6409,SHANMUGAPRASATH S,Manufacturing,2026-06-24,Stable,Anomaly,High Absence Trend
@@ -74,7 +74,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6427,Chandru P,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
 6428,Geetha R,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6429,Arun Kumar A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-6430,Balamurali C,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+6430,Balamurali C,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6448,PRABU SUNDAR G,Quality,2026-06-24,Stable,Normal,High Absence Trend
 6457,KANNAN A,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6459,ARUMUGAM T,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
@@ -93,7 +93,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6598,PRASANTH S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6599,SAKTHIMURUGAN K,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6601,SABITHA K,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-6602,THAVASUMANI KR,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+6602,THAVASUMANI KR,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6603,RAJA S,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6604,PANDIARAJAN T,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 6607,AJITHKUMAR R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
@@ -109,12 +109,12 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6628,N RAJESHKUMAR,Tool Room,2026-06-24,Irregular,Normal,Increasing Lateness
 6656,VIGNESHWARAN G,Quality,2026-06-24,Stable,Normal,High Absence Trend
 6657,HARIPRAKASH M,Quality,2026-06-24,Irregular,Normal,Increasing Lateness
-6661,VASANTH RAJ K,Quality,2026-06-24,High Deviation,Normal,Increasing Lateness
+6661,VASANTH RAJ K,Quality,2026-06-24,Irregular,Normal,Increasing Lateness
 6671,karuppasamy,Quality,2026-06-24,Stable,Normal,High Absence Trend
 6672,Akilan,Quality,2026-06-24,Stable,Normal,High Absence Trend
 6695,PONNU MUTHU,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7010,G.MANIKANDAN,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-7011,S.DURAI MURUGAN,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+7011,S.DURAI MURUGAN,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 7025,A.VINITHA,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7028,MURUGASWARI,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7044,G.LALITHA DEVI,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
@@ -129,15 +129,15 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 7092,PUTHIYARAJAN,HR & Admin,2026-06-24,Stable,Normal,High Absence Trend
 7114,B.KARTHIKEYAN,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7132,MANIKANDAN.S,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
-7142,SRIKARTHICK RAJAN.K,Planning,2026-06-24,Irregular,Anomaly,Increasing Lateness
+7142,SRIKARTHICK RAJAN.K,Planning,2026-06-24,Stable,Anomaly,Increasing Lateness
 7151,A.AATHIRAMILAKI,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7153,JULIE VIJAYA THANGAM.V,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7156,MANOJKUMAR,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7158,B.UTHAYA KUMAR,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7199,K.DEEPIKA,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-7227,M.ANBUMURUGAN,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+7227,M.ANBUMURUGAN,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 7247,P.Ajay Nizanth,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
-7262,SURIYA.M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+7262,SURIYA.M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7322,B.MANOHARAN,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
 7323,murugan,HR & Admin,2026-06-24,Stable,Normal,High Absence Trend
 7340,J.MANIKANDAN,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
@@ -151,7 +151,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 7402,A.SUNDAR,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7407,K.PRAMILA,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7411,MOHANA S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-7419,MANIKANDAN M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+7419,MANIKANDAN M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7420,PRABHAKARAN A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7422,PRADEEP C,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7428,SRIKANTH S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
@@ -177,13 +177,13 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 7521,SANTHIYA P,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7527,KARUPPANAN S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7532,PREMKUMAR D,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-7534,SOWROW B,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+7534,SOWROW B,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7535,KAMESH WARAN K,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7539,PRAVEEN R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7547,DEEPA K,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7550,SOUNDHARYA D,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7552,SHARMILA T,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-7554,HARIPRASATH R,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+7554,HARIPRASATH R,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7555,MAKILAN D,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7559,PRIYA N,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7565,HARISH K,Tool Room,2026-06-24,Irregular,Normal,Increasing Lateness
@@ -234,7 +234,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 7795,VIGNESHWARAN V,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7796,NANTHA KUMAR G,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 7806,ARCHANA B,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-7807,THANGA PANDI P,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+7807,THANGA PANDI P,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7809,RAJESHWARI G,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7813,Malaiyayee A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 7815,Venkatesh R,Stores,2026-06-24,Stable,Normal,High Absence Trend
@@ -283,17 +283,17 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 8538,Sudha M,HR & Admin,2026-06-24,Stable,Normal,High Absence Trend
 8539,MUTHU SAMY A,HR & Admin,2026-06-24,Stable,Normal,High Absence Trend
 8611,BHAVANI R,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
-8642,AJAY K,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+8642,AJAY K,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 8645,BALAMURUGAN M,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 8655,MAHARAJA M,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 8665,MANONMANI V,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 8689,SWATHI C,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 8702,SHANKAR M,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
 8760,VELMURUGAN MS,Quality,2026-06-24,Stable,Normal,High Absence Trend
-8762,SIVA A,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
-8805,CHELLAPANDI V,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+8762,SIVA A,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
+8805,CHELLAPANDI V,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 8817,VINOTH M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-8821,JEYA PRAKASH M,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+8821,JEYA PRAKASH M,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
 8833,PAVITHRA S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 8873,Jency Selciya S,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 8912,M.GANESH KUMAR,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
@@ -307,14 +307,14 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 19002,NAVEEN N,SMT,2026-06-24,Irregular,Normal,Increasing Lateness
 19003,LOKESH P,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19008,SHIBU S,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
-19020,M.VEERANA KARUPPU,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
-19023,V.RAMAR,Process Engineering,2026-06-24,Irregular,Anomaly,Increasing Lateness
+19020,M.VEERANA KARUPPU,Manufacturing,2026-06-24,Irregular,Anomaly,Increasing Lateness
+19023,V.RAMAR,Process Engineering,2026-06-24,High Deviation,Anomaly,Increasing Lateness
 19028,K.R.P. CHELLA GANESH,Quality,2026-06-24,Irregular,Normal,Increasing Lateness
 19031,JEYA KUMAR R,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19032,GOPINATH A,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
-19034,MARIMALLUSAMY M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
+19034,MARIMALLUSAMY M,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19040,SUNDARAPANDI S,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
-19041,GOHILA S,Process Engineering,2026-06-24,Stable,Anomaly,High Absence Trend
+19041,GOHILA S,Process Engineering,2026-06-24,High Deviation,Anomaly,High Absence Trend
 19044,C Boopathi,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19045,MUTHUMANI S,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
 19047,PRADEEP P,Maintenance,2026-06-24,Irregular,Normal,Increasing Lateness

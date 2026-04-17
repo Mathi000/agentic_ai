@@ -592,12 +592,10 @@ def chat_interface():
             with st.spinner("Analyzing workforce data..."):
                 query_type = classify_query(prompt)
                 
-                if query_type == "irrelevant":
-                    response = "I couldn't identify how this relates to our workforce data. Please ask about attendance patterns, risks, anomalies, or summaries."
-                else:
-                    context = _load_outputs()
-                    filtered = filter_context(query_type, context)
-                    response = generate_response(prompt, filtered)
+                context = _load_outputs()
+                filtered = filter_context(query_type, context)
+                # Pass chat history for context-aware responses
+                response = generate_response(prompt, filtered, st.session_state.chat_history)
                 
                 st.markdown(response)
         
@@ -761,10 +759,22 @@ def render_hr_leave_management():
         st.dataframe(processed_leaves.astype(str), use_container_width=True)
 
 def render_login_page():
+    # Force sidebar to hide on login page for perfect centering
     st.markdown("""
-        <div style="text-align: center; margin-top: 10vh; margin-bottom: 2rem; animation: fluidUp 1s ease-out backwards;">
+        <style>
+            section[data-testid="stSidebar"] { display: none !important; }
+            .block-container { padding: 5rem 1rem !important; }
+        </style>
+    """, unsafe_allow_html=True)
+
+    st.markdown("""
+        <div style="text-align: center; margin-top: 5vh; margin-bottom: 2rem; animation: fluidUp 1s ease-out backwards;">
             <h1 class="hero-title" style="font-size: clamp(2.5rem, 5vw, 4rem); letter-spacing: 1px;">SECURE ACCESS</h1>
-            <p class="hero-subtitle">Please authenticate your identity to continue to the intelligence dashboard.</p>
+            <center>
+                <p class="hero-subtitle" style="text-align: center; margin: 0 auto 3rem auto;">
+                    Please authenticate your identity to continue to the intelligence dashboard.
+                </p>
+            </center>
         </div>
     """, unsafe_allow_html=True)
     

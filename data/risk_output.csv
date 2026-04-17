@@ -45,7 +45,7 @@ employee_id,risk_score,risk_category,Emp Name,department,date
 6240,0.022085492,Low,Raja T,Manufacturing,2026-06-24
 6241,0.99597967,High,Asaithambi B,Manufacturing,2026-06-24
 6243,0.0155722955,Low,Venkatesh G,Manufacturing,2026-06-24
-6246,0.9833628,High,Arjun M,Manufacturing,2026-06-24
+6246,0.024654204,Low,Arjun M,Manufacturing,2026-06-24
 6249,0.0023673454,Low,Satheesh Kumar G,Process Engineering,2026-06-24
 6271,0.9961921,High,Shanmugaraju I,Tool Room,2026-06-24
 6276,0.99773765,High,Shanmugapandi M,Tool Room,2026-06-24
@@ -308,15 +308,15 @@ employee_id,risk_score,risk_category,Emp Name,department,date
 19003,0.0029971555,Medium,LOKESH P,Manufacturing,2026-06-24
 19008,0.9964569,High,SHIBU S,Tool Room,2026-06-24
 19020,0.9217232,High,M.VEERANA KARUPPU,Manufacturing,2026-06-24
-19023,0.002391516,Medium,V.RAMAR,Process Engineering,2026-06-24
+19023,0.39636472,Medium,V.RAMAR,Process Engineering,2026-06-24
 19028,0.9958813,High,K.R.P. CHELLA GANESH,Quality,2026-06-24
 19031,0.0005848613,Medium,JEYA KUMAR R,Manufacturing,2026-06-24
 19032,0.9966987,High,GOPINATH A,Process Engineering,2026-06-24
 19034,0.037968934,Medium,MARIMALLUSAMY M,Manufacturing,2026-06-24
 19040,0.0014390002,Medium,SUNDARAPANDI S,Stores,2026-06-24
-19041,0.99606735,High,GOHILA S,Process Engineering,2026-06-24
+19041,0.9963542,High,GOHILA S,Process Engineering,2026-06-24
 19044,0.001445326,Medium,C Boopathi,Manufacturing,2026-06-24
-19045,0.9982248,High,MUTHUMANI S,Process Engineering,2026-06-24
+19045,0.99675226,High,MUTHUMANI S,Process Engineering,2026-06-24
 19047,0.00046571437,Medium,PRADEEP P,Maintenance,2026-06-24
 19063,0.0028909317,Medium,GOWSIK KUMAR S,Manufacturing,2026-06-24
 19068,0.007251472,Medium,MUTHURAJ C,Manufacturing,2026-06-24

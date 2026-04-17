@@ -19,7 +19,7 @@ load_dotenv()
 #   $env:GROQ_API_KEY="your_key_here"
 
 
-SYSTEM_PROMPT = "Answer briefly and directly. Max 3 lines. Ignore unrelated info."
+SYSTEM_PROMPT = "Answer briefly and directly. Max 5 lines. Ignore unrelated info."
 DEFAULT_MODEL = os.getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 MAX_TOKENS = 100
 TEMPERATURE = 0

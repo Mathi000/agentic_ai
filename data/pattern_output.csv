@@ -45,7 +45,7 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 6240,Raja T,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6241,Asaithambi B,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 6243,Venkatesh G,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
-6246,Arjun M,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
+6246,Arjun M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
 6249,Satheesh Kumar G,Process Engineering,2026-06-24,Stable,Normal,High Absence Trend
 6271,Shanmugaraju I,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
 6276,Shanmugapandi M,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
@@ -308,15 +308,15 @@ employee_id,Emp Name,department,date,cluster_label,anomaly_flag,trend_flag
 19003,LOKESH P,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19008,SHIBU S,Tool Room,2026-06-24,Stable,Normal,High Absence Trend
 19020,M.VEERANA KARUPPU,Manufacturing,2026-06-24,High Deviation,Anomaly,Increasing Lateness
-19023,V.RAMAR,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
+19023,V.RAMAR,Process Engineering,2026-06-24,Irregular,Anomaly,Increasing Lateness
 19028,K.R.P. CHELLA GANESH,Quality,2026-06-24,Irregular,Normal,Increasing Lateness
 19031,JEYA KUMAR R,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
 19032,GOPINATH A,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
 19034,MARIMALLUSAMY M,Manufacturing,2026-06-24,High Deviation,Normal,Increasing Lateness
 19040,SUNDARAPANDI S,Stores,2026-06-24,Irregular,Normal,Increasing Lateness
-19041,GOHILA S,Process Engineering,2026-06-24,Stable,Normal,High Absence Trend
+19041,GOHILA S,Process Engineering,2026-06-24,Stable,Anomaly,High Absence Trend
 19044,C Boopathi,Manufacturing,2026-06-24,Irregular,Normal,Increasing Lateness
-19045,MUTHUMANI S,Process Engineering,2026-06-24,Irregular,Anomaly,Increasing Lateness
+19045,MUTHUMANI S,Process Engineering,2026-06-24,Irregular,Normal,Increasing Lateness
 19047,PRADEEP P,Maintenance,2026-06-24,Irregular,Normal,Increasing Lateness
 19063,GOWSIK KUMAR S,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
 19068,MUTHURAJ C,Manufacturing,2026-06-24,Stable,Normal,High Absence Trend
